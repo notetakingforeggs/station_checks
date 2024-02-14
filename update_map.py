@@ -24,12 +24,22 @@ def update_map(driver):
 
     # navigate to web page
     print("IN THE SCRAPE FUNCTION NOW")
-    driver.get("https://web.whatsapp.com/") 
+    element_locator = (By.XPATH, '//span[text() = "Station Checks"]')
+
+    try:
+        station_checks = WebDriverWait(driver, 15).until(
+        EC.visibility_of_element_located(element_locator)
+    )
+    except TimeoutException:
+        print("couldnt find stationchecks")
+        driver.save_screenshot("thiswhereimat.png")         
+        driver.get("https://web.whatsapp.com/") 
 
     # assuming logging in has been done
     
     # find appropriate groupchat on page and click         
-    element_locator = (By.XPATH, '//span[text() = "Station Checks"]')
+    # delete this next line?
+    #element_locator = (By.XPATH, '//span[text() = "Station Checks"]')
     try:
         station_checks = WebDriverWait(driver, 20).until(
         EC.visibility_of_element_located(element_locator)
@@ -38,17 +48,17 @@ def update_map(driver):
         print("couldnt find stationchecks")
         driver.save_screenshot("thiswhereimat.png")
         return False
-        # maybe return false here to trigger an error message?
+
     # click on station checks chat.
     station_checks.click()
 
     # scrolling up in whatsap chat
     loop = False
     counter = 0
-    while loop == False and counter < 4:
+    while loop == False:
         try:
             counter +=1
-            today = driver.find_element(by=By.XPATH, value ='//span[text() = "YESTERDAY"]')
+            today = driver.find_element(by=By.XPATH, value ='//span[text() = "THURSDAY"]')
             print ("scrolling up complete")
             loop = True
         except NoSuchElementException:
@@ -72,13 +82,14 @@ def update_map(driver):
 
     # find the deepest div type containing both the date and the place number and iterate through them
     date_content = tab_index.find_all('div', class_='copyable-text')
+    
     for div in date_content:
             
             # extract date
             contains_date = div['data-pre-plain-text']
             parsed_date = parse(contains_date,fuzzy=True)
             date = str(parsed_date.date())
-            print(f"the date is: {date}")
+            #print(f"the date is: {date}")
         
             # extract station ID
             station_id = None
@@ -91,7 +102,7 @@ def update_map(driver):
                         int(station_id)
                     else:
                         continue
-            print("station code is:", station_id)
+            #print("station code is:", station_id)
                 
 
             # update db to include the date last checked, and below to calculate the time since last checked. could combine to one line maybe?

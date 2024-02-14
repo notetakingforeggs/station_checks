@@ -1,0 +1,23 @@
+2024/02/14-15:34:58.729 13aa0 Reusing MANIFEST /home/squarey/Desktop/wips/station_checks/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/02/14-15:34:58.730 13aa0 Recovering log #372
+2024/02/14-15:34:58.737 13aa0 Reusing old log /home/squarey/Desktop/wips/station_checks/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000372.log 
+2024/02/14-15:35:00.653 13aa0 Level-0 table #382: started
+2024/02/14-15:35:00.658 13aa0 Level-0 table #382: 93866 bytes OK
+2024/02/14-15:35:00.660 13aa0 Delete type=0 #372
+2024/02/14-15:35:00.661 13aa3 Manual compaction at level-0 from '\x008\x00\x00\x00' @ 72057594037927935 : 1 .. '\x009\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/02/14-15:35:02.506 13aa1 Compacting 1@1 + 6@2 files
+2024/02/14-15:35:02.572 13aa1 Generated table #383@1: 46076 keys, 2201364 bytes
+2024/02/14-15:35:02.609 13aa1 Generated table #384@1: 3529 keys, 2154163 bytes
+2024/02/14-15:35:02.659 13aa1 Generated table #385@1: 21241 keys, 2222816 bytes
+2024/02/14-15:35:02.722 13aa1 Generated table #386@1: 19298 keys, 2183261 bytes
+2024/02/14-15:35:02.797 13aa1 Generated table #387@1: 95444 keys, 2242642 bytes
+2024/02/14-15:35:02.846 13aa1 Generated table #388@1: 62352 keys, 1387837 bytes
+2024/02/14-15:35:02.847 13aa1 Compacted 1@1 + 6@2 files => 12392083 bytes
+2024/02/14-15:35:02.851 13aa1 compacted to: files[ 0 0 6 0 0 0 0 ]
+2024/02/14-15:35:02.851 13aa1 Delete type=2 #374
+2024/02/14-15:35:02.851 13aa1 Delete type=2 #375
+2024/02/14-15:35:02.852 13aa1 Delete type=2 #376
+2024/02/14-15:35:02.852 13aa1 Delete type=2 #377
+2024/02/14-15:35:02.852 13aa1 Delete type=2 #379
+2024/02/14-15:35:02.852 13aa1 Delete type=2 #382
+2024/02/14-15:35:02.852 13aa1 Delete type=2 #378
