@@ -23,7 +23,7 @@ def link_device(driver):
     # locate QR code element on page  
     element_locator = (By.XPATH, '/html/body/div[1]/div/div[2]/div[3]/div[1]/div/div/div[2]/div/canvas')
     try:
-        QR = WebDriverWait(driver, 15).until(
+        QR = WebDriverWait(driver, 60).until(
         EC.visibility_of_element_located(element_locator)
     )
         print("QR should be visible, screenshot now")
@@ -39,7 +39,7 @@ def link_device(driver):
         )
         # return false if QR code is not scanned, or station chats not present in whatssapp account
         except TimeoutException:
-            print("no QR, logged in?")
+            print("no QR, logged")
             return False      
         print("link_device is returning true")       
         return True

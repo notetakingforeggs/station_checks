@@ -1,0 +1,4027 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0e7171aebd91189cfa362545755a9075 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0e7171aebd91189cfa362545755a9075" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0e7171aebd91189cfa362545755a9075 = L.map(
+                "map_0e7171aebd91189cfa362545755a9075",
+                {
+                    center: [55.8591, -4.2581],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b9ff506543698866f0745a2ac33337c0 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_b9ff506543698866f0745a2ac33337c0.addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var marker_428b232f5a292534e2822775e1623a44 = L.marker(
+                [55.86077, -4.264535],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_cf364d8b3a767a7aaeebf4fb145bc39a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_428b232f5a292534e2822775e1623a44.setIcon(icon_cf364d8b3a767a7aaeebf4fb145bc39a);
+        
+    
+        var popup_07857dcab145d8d2e7731534b62ae264 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78fb3e90611c9cdd7f92d19ef12162fd = $(`<div id="html_78fb3e90611c9cdd7f92d19ef12162fd" style="width: 100.0%; height: 100.0%;">Station:Waterloo Street - ELECTRIC, last checked:None</div>`)[0];
+                popup_07857dcab145d8d2e7731534b62ae264.setContent(html_78fb3e90611c9cdd7f92d19ef12162fd);
+            
+        
+
+        marker_428b232f5a292534e2822775e1623a44.bindPopup(popup_07857dcab145d8d2e7731534b62ae264)
+        ;
+
+        
+    
+    
+            marker_428b232f5a292534e2822775e1623a44.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f2591ecb9d899febda98ab52396d8ca6 = L.marker(
+                [55.86155, -4.2494],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_d087b4fe13967373d9f0525f586803bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f2591ecb9d899febda98ab52396d8ca6.setIcon(icon_d087b4fe13967373d9f0525f586803bd);
+        
+    
+        var popup_b23e192a910306c45a20918d1a4dff55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e67d6a2e428671bcfdb009b9bce287b = $(`<div id="html_3e67d6a2e428671bcfdb009b9bce287b" style="width: 100.0%; height: 100.0%;">Station:George Square - ELECTRIC, last checked:2024-02-13</div>`)[0];
+                popup_b23e192a910306c45a20918d1a4dff55.setContent(html_3e67d6a2e428671bcfdb009b9bce287b);
+            
+        
+
+        marker_f2591ecb9d899febda98ab52396d8ca6.bindPopup(popup_b23e192a910306c45a20918d1a4dff55)
+        ;
+
+        
+    
+    
+            marker_f2591ecb9d899febda98ab52396d8ca6.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_add6cd9f4e2e1451487d1392df5e6bc4 = L.marker(
+                [55.858167, -4.245483],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_4170ff8f821c736d78584c9fbf01867b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_add6cd9f4e2e1451487d1392df5e6bc4.setIcon(icon_4170ff8f821c736d78584c9fbf01867b);
+        
+    
+        var popup_0707d74a82714990ebf0ed757e8aa4f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f54c6e7c5520a4cc55d6489c0ff2c54d = $(`<div id="html_f54c6e7c5520a4cc55d6489c0ff2c54d" style="width: 100.0%; height: 100.0%;">Station:Merchant Square - ELECTRIC, last checked:None</div>`)[0];
+                popup_0707d74a82714990ebf0ed757e8aa4f8.setContent(html_f54c6e7c5520a4cc55d6489c0ff2c54d);
+            
+        
+
+        marker_add6cd9f4e2e1451487d1392df5e6bc4.bindPopup(popup_0707d74a82714990ebf0ed757e8aa4f8)
+        ;
+
+        
+    
+    
+            marker_add6cd9f4e2e1451487d1392df5e6bc4.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e6d7a45f998d9ee5fe9caaf505232787 = L.marker(
+                [55.871367, -4.269117],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_e33c4ea64000424452ae1b948b74f8a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e6d7a45f998d9ee5fe9caaf505232787.setIcon(icon_e33c4ea64000424452ae1b948b74f8a4);
+        
+    
+        var popup_0621a3e1c8b37e6a0f3e3f07b707dfea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e257df0c6c03bbed731e4b1f3bbd4773 = $(`<div id="html_e257df0c6c03bbed731e4b1f3bbd4773" style="width: 100.0%; height: 100.0%;">Station:St George's Cross - ELECTRIC, last checked:2024-02-14</div>`)[0];
+                popup_0621a3e1c8b37e6a0f3e3f07b707dfea.setContent(html_e257df0c6c03bbed731e4b1f3bbd4773);
+            
+        
+
+        marker_e6d7a45f998d9ee5fe9caaf505232787.bindPopup(popup_0621a3e1c8b37e6a0f3e3f07b707dfea)
+        ;
+
+        
+    
+    
+            marker_e6d7a45f998d9ee5fe9caaf505232787.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c147f530d426c3c14aa676a7d4841402 = L.marker(
+                [55.856859, -4.255593],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_f38bf1ef67fd4ea6f13df31eadd6c24e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c147f530d426c3c14aa676a7d4841402.setIcon(icon_f38bf1ef67fd4ea6f13df31eadd6c24e);
+        
+    
+        var popup_fbd1e74026b92f8946ef1c93d484221c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1428e85a7584a442d4ecc248e0f6fd4a = $(`<div id="html_1428e85a7584a442d4ecc248e0f6fd4a" style="width: 100.0%; height: 100.0%;">Station:St Enoch Square - ELECTRIC, last checked:2024-02-13</div>`)[0];
+                popup_fbd1e74026b92f8946ef1c93d484221c.setContent(html_1428e85a7584a442d4ecc248e0f6fd4a);
+            
+        
+
+        marker_c147f530d426c3c14aa676a7d4841402.bindPopup(popup_fbd1e74026b92f8946ef1c93d484221c)
+        ;
+
+        
+    
+    
+            marker_c147f530d426c3c14aa676a7d4841402.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ba24fd6444f5cc24d1de166e7df196c4 = L.marker(
+                [55.862973, -4.237745],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_5067c38ad61467fefc19738fb4acd453 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ba24fd6444f5cc24d1de166e7df196c4.setIcon(icon_5067c38ad61467fefc19738fb4acd453);
+        
+    
+        var popup_b6c6758220a989f732a92812ab58047e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_387ece57a8baa40fe5e3fde9867e2e41 = $(`<div id="html_387ece57a8baa40fe5e3fde9867e2e41" style="width: 100.0%; height: 100.0%;">Station:Glasgow Cathedral - ELECTRIC, last checked:None</div>`)[0];
+                popup_b6c6758220a989f732a92812ab58047e.setContent(html_387ece57a8baa40fe5e3fde9867e2e41);
+            
+        
+
+        marker_ba24fd6444f5cc24d1de166e7df196c4.bindPopup(popup_b6c6758220a989f732a92812ab58047e)
+        ;
+
+        
+    
+    
+            marker_ba24fd6444f5cc24d1de166e7df196c4.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_30545ee1b170525e9bf84efc9f722e76 = L.marker(
+                [55.84945, -4.23375],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_1ed4a5cb5ff48a25c85d5688713b825f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_30545ee1b170525e9bf84efc9f722e76.setIcon(icon_1ed4a5cb5ff48a25c85d5688713b825f);
+        
+    
+        var popup_b6de41194edbf00d2063dc2655cbe9ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9c84347d6b42aa0e2366bd746eb736a = $(`<div id="html_d9c84347d6b42aa0e2366bd746eb736a" style="width: 100.0%; height: 100.0%;">Station:Glasgow Green, last checked:None</div>`)[0];
+                popup_b6de41194edbf00d2063dc2655cbe9ec.setContent(html_d9c84347d6b42aa0e2366bd746eb736a);
+            
+        
+
+        marker_30545ee1b170525e9bf84efc9f722e76.bindPopup(popup_b6de41194edbf00d2063dc2655cbe9ec)
+        ;
+
+        
+    
+    
+            marker_30545ee1b170525e9bf84efc9f722e76.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_83d1bbaa174acaccfeb3e338b31f76d2 = L.marker(
+                [55.8566, -4.263521],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_c0e58e366362046f60ee39a616bde296 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_83d1bbaa174acaccfeb3e338b31f76d2.setIcon(icon_c0e58e366362046f60ee39a616bde296);
+        
+    
+        var popup_ed2a9c5f7a328bfc53acc91b49e0fffe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d07b419ad5890da67a641151a1c00b99 = $(`<div id="html_d07b419ad5890da67a641151a1c00b99" style="width: 100.0%; height: 100.0%;">Station:Broomielaw - ELECTRIC, last checked:2024-02-10</div>`)[0];
+                popup_ed2a9c5f7a328bfc53acc91b49e0fffe.setContent(html_d07b419ad5890da67a641151a1c00b99);
+            
+        
+
+        marker_83d1bbaa174acaccfeb3e338b31f76d2.bindPopup(popup_ed2a9c5f7a328bfc53acc91b49e0fffe)
+        ;
+
+        
+    
+    
+            marker_83d1bbaa174acaccfeb3e338b31f76d2.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ece2e0fed761c2aae37e0e0efd6da5ac = L.marker(
+                [55.859081, -4.287211],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_17050d178517a53bb1e91b6e55be8efd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ece2e0fed761c2aae37e0e0efd6da5ac.setIcon(icon_17050d178517a53bb1e91b6e55be8efd);
+        
+    
+        var popup_1ba121ccd763b2752e46e4783c0d40c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0b72b217af07fd2fe81e68c4a180e6f = $(`<div id="html_b0b72b217af07fd2fe81e68c4a180e6f" style="width: 100.0%; height: 100.0%;">Station:Scottish Event Campus (formerly S.E.C.C), last checked:2024-02-09</div>`)[0];
+                popup_1ba121ccd763b2752e46e4783c0d40c9.setContent(html_b0b72b217af07fd2fe81e68c4a180e6f);
+            
+        
+
+        marker_ece2e0fed761c2aae37e0e0efd6da5ac.bindPopup(popup_1ba121ccd763b2752e46e4783c0d40c9)
+        ;
+
+        
+    
+    
+            marker_ece2e0fed761c2aae37e0e0efd6da5ac.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b16f4f7e3a20462ab313580b3d1adfec = L.marker(
+                [55.8849, -4.281414],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_6e0144f1e60cec62b2a9ad51b2fa3f65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b16f4f7e3a20462ab313580b3d1adfec.setIcon(icon_6e0144f1e60cec62b2a9ad51b2fa3f65);
+        
+    
+        var popup_ea77982f3d1bf91397134e7ce1b9174e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b34ab148bf7345008aded90c8c6f952b = $(`<div id="html_b34ab148bf7345008aded90c8c6f952b" style="width: 100.0%; height: 100.0%;">Station:Queen Margaret Drive / Maryhill Road, last checked:None</div>`)[0];
+                popup_ea77982f3d1bf91397134e7ce1b9174e.setContent(html_b34ab148bf7345008aded90c8c6f952b);
+            
+        
+
+        marker_b16f4f7e3a20462ab313580b3d1adfec.bindPopup(popup_ea77982f3d1bf91397134e7ce1b9174e)
+        ;
+
+        
+    
+    
+            marker_b16f4f7e3a20462ab313580b3d1adfec.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2f1183a00c9222fbcbe6684fe1ebd6d8 = L.marker(
+                [55.878278, -4.288487],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_d9b40fe770f62510b4a15cd6b4d0ffa5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2f1183a00c9222fbcbe6684fe1ebd6d8.setIcon(icon_d9b40fe770f62510b4a15cd6b4d0ffa5);
+        
+    
+        var popup_bd9f508926f8d07002555dc4dcb63717 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6877e7d6498d4d3e15de4cc71f5303c8 = $(`<div id="html_6877e7d6498d4d3e15de4cc71f5303c8" style="width: 100.0%; height: 100.0%;">Station:Botanic Gardens - ELECTRIC, last checked:2024-02-09</div>`)[0];
+                popup_bd9f508926f8d07002555dc4dcb63717.setContent(html_6877e7d6498d4d3e15de4cc71f5303c8);
+            
+        
+
+        marker_2f1183a00c9222fbcbe6684fe1ebd6d8.bindPopup(popup_bd9f508926f8d07002555dc4dcb63717)
+        ;
+
+        
+    
+    
+            marker_2f1183a00c9222fbcbe6684fe1ebd6d8.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_51b6c8dd644ed9733d3884858a940a23 = L.marker(
+                [55.87501, -4.280371],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_c5cfb40679ad4b89a7ba826b52fb6ff0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_51b6c8dd644ed9733d3884858a940a23.setIcon(icon_c5cfb40679ad4b89a7ba826b52fb6ff0);
+        
+    
+        var popup_c559d07b03119e5ee189a86e01785200 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2105c68c5d0be9e82797a96de0db78f = $(`<div id="html_e2105c68c5d0be9e82797a96de0db78f" style="width: 100.0%; height: 100.0%;">Station:Kelvinbridge Subway - ELECTRIC, last checked:2024-02-11</div>`)[0];
+                popup_c559d07b03119e5ee189a86e01785200.setContent(html_e2105c68c5d0be9e82797a96de0db78f);
+            
+        
+
+        marker_51b6c8dd644ed9733d3884858a940a23.bindPopup(popup_c559d07b03119e5ee189a86e01785200)
+        ;
+
+        
+    
+    
+            marker_51b6c8dd644ed9733d3884858a940a23.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3fcf63da0501b485c5bab705ae1aa11b = L.marker(
+                [55.868352, -4.289405],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_a2a91ef387eae0eca1d2b9189e42d3eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3fcf63da0501b485c5bab705ae1aa11b.setIcon(icon_a2a91ef387eae0eca1d2b9189e42d3eb);
+        
+    
+        var popup_650b68e4b60abb5fbc0f9af99cd42419 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a665063d30479baa15b81af176257fc6 = $(`<div id="html_a665063d30479baa15b81af176257fc6" style="width: 100.0%; height: 100.0%;">Station:Kelvingrove Art Gallery - ELECTRIC, last checked:None</div>`)[0];
+                popup_650b68e4b60abb5fbc0f9af99cd42419.setContent(html_a665063d30479baa15b81af176257fc6);
+            
+        
+
+        marker_3fcf63da0501b485c5bab705ae1aa11b.bindPopup(popup_650b68e4b60abb5fbc0f9af99cd42419)
+        ;
+
+        
+    
+    
+            marker_3fcf63da0501b485c5bab705ae1aa11b.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e40eec6ed92fb0dc573127c636ee5a8c = L.marker(
+                [55.872774, -4.292135],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_2ebb91fdb002c0120d973ecf63d34a2b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e40eec6ed92fb0dc573127c636ee5a8c.setIcon(icon_2ebb91fdb002c0120d973ecf63d34a2b);
+        
+    
+        var popup_6dd6605485d853705559670d36008de7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b9762f4a7f51b59f910a7def98bde9c = $(`<div id="html_2b9762f4a7f51b59f910a7def98bde9c" style="width: 100.0%; height: 100.0%;">Station:University of Glasgow (West), last checked:2024-02-09</div>`)[0];
+                popup_6dd6605485d853705559670d36008de7.setContent(html_2b9762f4a7f51b59f910a7def98bde9c);
+            
+        
+
+        marker_e40eec6ed92fb0dc573127c636ee5a8c.bindPopup(popup_6dd6605485d853705559670d36008de7)
+        ;
+
+        
+    
+    
+            marker_e40eec6ed92fb0dc573127c636ee5a8c.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5626661b2c0c443f21686d7eaabd67f3 = L.marker(
+                [55.864788, -4.271852],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_1215a274d4fdb4e6ddbce5c5f9885e94 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5626661b2c0c443f21686d7eaabd67f3.setIcon(icon_1215a274d4fdb4e6ddbce5c5f9885e94);
+        
+    
+        var popup_4f280f073016d3a6fc8df07b8f5a4654 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_982bd86a8c161a22dde2b5db1e2889e5 = $(`<div id="html_982bd86a8c161a22dde2b5db1e2889e5" style="width: 100.0%; height: 100.0%;">Station:Mitchell Library, last checked:2024-02-09</div>`)[0];
+                popup_4f280f073016d3a6fc8df07b8f5a4654.setContent(html_982bd86a8c161a22dde2b5db1e2889e5);
+            
+        
+
+        marker_5626661b2c0c443f21686d7eaabd67f3.bindPopup(popup_4f280f073016d3a6fc8df07b8f5a4654)
+        ;
+
+        
+    
+    
+            marker_5626661b2c0c443f21686d7eaabd67f3.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c3e79f0929e10819ef1561911a1866f9 = L.marker(
+                [55.862983, -4.241],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_94dd2a8c8d7a5d176b0c4e72bd05eee9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c3e79f0929e10819ef1561911a1866f9.setIcon(icon_94dd2a8c8d7a5d176b0c4e72bd05eee9);
+        
+    
+        var popup_d1cd988435c565ef8cef826e7e5977be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6e437da86c9ffc49f7570b1d1e182b5 = $(`<div id="html_f6e437da86c9ffc49f7570b1d1e182b5" style="width: 100.0%; height: 100.0%;">Station:University of Strathclyde (North), last checked:None</div>`)[0];
+                popup_d1cd988435c565ef8cef826e7e5977be.setContent(html_f6e437da86c9ffc49f7570b1d1e182b5);
+            
+        
+
+        marker_c3e79f0929e10819ef1561911a1866f9.bindPopup(popup_d1cd988435c565ef8cef826e7e5977be)
+        ;
+
+        
+    
+    
+            marker_c3e79f0929e10819ef1561911a1866f9.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2719b8527406ea4209917df30dec09f8 = L.marker(
+                [55.8525, -4.25885],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_a42283b81358f7b82526314fc43024e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2719b8527406ea4209917df30dec09f8.setIcon(icon_a42283b81358f7b82526314fc43024e3);
+        
+    
+        var popup_553898dd8ac8ff02b2880f460ca39fbc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1aa26f32275a09644e1d95fa2bd50317 = $(`<div id="html_1aa26f32275a09644e1d95fa2bd50317" style="width: 100.0%; height: 100.0%;">Station:Bridge Street Subway - ELECTRIC, last checked:2024-02-10</div>`)[0];
+                popup_553898dd8ac8ff02b2880f460ca39fbc.setContent(html_1aa26f32275a09644e1d95fa2bd50317);
+            
+        
+
+        marker_2719b8527406ea4209917df30dec09f8.bindPopup(popup_553898dd8ac8ff02b2880f460ca39fbc)
+        ;
+
+        
+    
+    
+            marker_2719b8527406ea4209917df30dec09f8.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_661af28668629dbf46235cb84bcd563f = L.marker(
+                [55.857575, -4.249976],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_c277879bec34df8259555193c238482f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_661af28668629dbf46235cb84bcd563f.setIcon(icon_c277879bec34df8259555193c238482f);
+        
+    
+        var popup_4d553ea19d72081cf35693892ebbbbb2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df13e36b2ba62400f9bf3c14f73dd71e = $(`<div id="html_df13e36b2ba62400f9bf3c14f73dd71e" style="width: 100.0%; height: 100.0%;">Station:Argyle Street Railway Station - ELECTRIC, last checked:None</div>`)[0];
+                popup_4d553ea19d72081cf35693892ebbbbb2.setContent(html_df13e36b2ba62400f9bf3c14f73dd71e);
+            
+        
+
+        marker_661af28668629dbf46235cb84bcd563f.bindPopup(popup_4d553ea19d72081cf35693892ebbbbb2)
+        ;
+
+        
+    
+    
+            marker_661af28668629dbf46235cb84bcd563f.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f438e8764fcc4bbdccc84732f91a148f = L.marker(
+                [55.865817, -4.251367],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_035cafff409f8740a2dae27368badc93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f438e8764fcc4bbdccc84732f91a148f.setIcon(icon_035cafff409f8740a2dae27368badc93);
+        
+    
+        var popup_95c5e5bda9c08dc5b817be37e87ca9cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ecbcece36570c3f6053981eb6085b339 = $(`<div id="html_ecbcece36570c3f6053981eb6085b339" style="width: 100.0%; height: 100.0%;">Station:Glasgow Caledonian University - ELECTRIC, last checked:None</div>`)[0];
+                popup_95c5e5bda9c08dc5b817be37e87ca9cd.setContent(html_ecbcece36570c3f6053981eb6085b339);
+            
+        
+
+        marker_f438e8764fcc4bbdccc84732f91a148f.bindPopup(popup_95c5e5bda9c08dc5b817be37e87ca9cd)
+        ;
+
+        
+    
+    
+            marker_f438e8764fcc4bbdccc84732f91a148f.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d28b939301fd25b98767849f4edcf125 = L.marker(
+                [55.846362, -4.208322],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_ef7cc542c05c8816f078c9453e1bed58 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d28b939301fd25b98767849f4edcf125.setIcon(icon_ef7cc542c05c8816f078c9453e1bed58);
+        
+    
+        var popup_d42a49b72ea0dc851d946421a2e6ec10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_afefb4011d92d23dc21dc71c9e5f67e1 = $(`<div id="html_afefb4011d92d23dc21dc71c9e5f67e1" style="width: 100.0%; height: 100.0%;">Station:Emirates Arena, last checked:None</div>`)[0];
+                popup_d42a49b72ea0dc851d946421a2e6ec10.setContent(html_afefb4011d92d23dc21dc71c9e5f67e1);
+            
+        
+
+        marker_d28b939301fd25b98767849f4edcf125.bindPopup(popup_d42a49b72ea0dc851d946421a2e6ec10)
+        ;
+
+        
+    
+    
+            marker_d28b939301fd25b98767849f4edcf125.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_671c2af07efbc65bd647576b8e2a331b = L.marker(
+                [55.859716, -4.251945],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_2fd0be7737188fc86d615e2cefbe0a24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_671c2af07efbc65bd647576b8e2a331b.setIcon(icon_2fd0be7737188fc86d615e2cefbe0a24);
+        
+    
+        var popup_f0dd1e16c08af5cf364b5dcf6777f424 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7fcd32632fe869336190285a6f2a251c = $(`<div id="html_7fcd32632fe869336190285a6f2a251c" style="width: 100.0%; height: 100.0%;">Station:Gallery of Modern Art - ELECTRIC, last checked:2024-02-14</div>`)[0];
+                popup_f0dd1e16c08af5cf364b5dcf6777f424.setContent(html_7fcd32632fe869336190285a6f2a251c);
+            
+        
+
+        marker_671c2af07efbc65bd647576b8e2a331b.bindPopup(popup_f0dd1e16c08af5cf364b5dcf6777f424)
+        ;
+
+        
+    
+    
+            marker_671c2af07efbc65bd647576b8e2a331b.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_37d95bcc03c08fab97c46a7410085747 = L.marker(
+                [55.855961, -4.244671],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_8abc9206fb4faccdf879224e1340b375 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_37d95bcc03c08fab97c46a7410085747.setIcon(icon_8abc9206fb4faccdf879224e1340b375);
+        
+    
+        var popup_6d5f4ab787e76272082f30224988cb0d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7715c797ddd57d3bf9c33cc9a2e28751 = $(`<div id="html_7715c797ddd57d3bf9c33cc9a2e28751" style="width: 100.0%; height: 100.0%;">Station:Trongate, last checked:None</div>`)[0];
+                popup_6d5f4ab787e76272082f30224988cb0d.setContent(html_7715c797ddd57d3bf9c33cc9a2e28751);
+            
+        
+
+        marker_37d95bcc03c08fab97c46a7410085747.bindPopup(popup_6d5f4ab787e76272082f30224988cb0d)
+        ;
+
+        
+    
+    
+            marker_37d95bcc03c08fab97c46a7410085747.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d52d9ea1da37c58a1b18cce0f43a7acf = L.marker(
+                [55.860633, -4.2419],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_7e8ec3a4a45fcc038f8bec38f8769628 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d52d9ea1da37c58a1b18cce0f43a7acf.setIcon(icon_7e8ec3a4a45fcc038f8bec38f8769628);
+        
+    
+        var popup_97f65c2895a752efbbaa4e728c57a002 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26b8fb23a99e2f09855ce5394fe0cc93 = $(`<div id="html_26b8fb23a99e2f09855ce5394fe0cc93" style="width: 100.0%; height: 100.0%;">Station:University of Strathclyde (South) - ELECTRIC, last checked:None</div>`)[0];
+                popup_97f65c2895a752efbbaa4e728c57a002.setContent(html_26b8fb23a99e2f09855ce5394fe0cc93);
+            
+        
+
+        marker_d52d9ea1da37c58a1b18cce0f43a7acf.bindPopup(popup_97f65c2895a752efbbaa4e728c57a002)
+        ;
+
+        
+    
+    
+            marker_d52d9ea1da37c58a1b18cce0f43a7acf.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_016f00233b0322cf786364b813ed1e33 = L.marker(
+                [55.871763, -4.27807],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_938424cb3bfad666448b03b771264afa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_016f00233b0322cf786364b813ed1e33.setIcon(icon_938424cb3bfad666448b03b771264afa);
+        
+    
+        var popup_7ae3aa92c1e8cccf92957ada549a1c35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4d509834b415cd1254bf28c560a0633 = $(`<div id="html_e4d509834b415cd1254bf28c560a0633" style="width: 100.0%; height: 100.0%;">Station:University of Glasgow (East) - ELECTRIC, last checked:2024-02-13</div>`)[0];
+                popup_7ae3aa92c1e8cccf92957ada549a1c35.setContent(html_e4d509834b415cd1254bf28c560a0633);
+            
+        
+
+        marker_016f00233b0322cf786364b813ed1e33.bindPopup(popup_7ae3aa92c1e8cccf92957ada549a1c35)
+        ;
+
+        
+    
+    
+            marker_016f00233b0322cf786364b813ed1e33.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4ab430e2b4ef8145637848672dd0ad88 = L.marker(
+                [55.869707, -4.308459],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_bbb84b58062f8ac068d89f5a87e7a690 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4ab430e2b4ef8145637848672dd0ad88.setIcon(icon_bbb84b58062f8ac068d89f5a87e7a690);
+        
+    
+        var popup_65bb85881eb1324322c538ded330aa84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7346663640079d90b9c996240c9c7f36 = $(`<div id="html_7346663640079d90b9c996240c9c7f36" style="width: 100.0%; height: 100.0%;">Station:Partick Interchange , last checked:2024-02-10</div>`)[0];
+                popup_65bb85881eb1324322c538ded330aa84.setContent(html_7346663640079d90b9c996240c9c7f36);
+            
+        
+
+        marker_4ab430e2b4ef8145637848672dd0ad88.bindPopup(popup_65bb85881eb1324322c538ded330aa84)
+        ;
+
+        
+    
+    
+            marker_4ab430e2b4ef8145637848672dd0ad88.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_413a4e212df0b323bb278116a2392459 = L.marker(
+                [55.863422, -4.280677],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_b9f96e9e38cf33909df2472d9223501b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_413a4e212df0b323bb278116a2392459.setIcon(icon_b9f96e9e38cf33909df2472d9223501b);
+        
+    
+        var popup_b4ad5775ae60b80083551e5127c3ef23 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_236d535790c7b73ffe5a3ccd043c10a1 = $(`<div id="html_236d535790c7b73ffe5a3ccd043c10a1" style="width: 100.0%; height: 100.0%;">Station:Finnieston Street, last checked:2024-02-10</div>`)[0];
+                popup_b4ad5775ae60b80083551e5127c3ef23.setContent(html_236d535790c7b73ffe5a3ccd043c10a1);
+            
+        
+
+        marker_413a4e212df0b323bb278116a2392459.bindPopup(popup_b4ad5775ae60b80083551e5127c3ef23)
+        ;
+
+        
+    
+    
+            marker_413a4e212df0b323bb278116a2392459.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_92325ef5abf98ce4f39c700af825cdec = L.marker(
+                [55.858123, -4.224511],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_6768b2d272b97b1e2f696056be9c3214 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_92325ef5abf98ce4f39c700af825cdec.setIcon(icon_6768b2d272b97b1e2f696056be9c3214);
+        
+    
+        var popup_93519a2863d74c13641af7dad2b5d5f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6dbefd616c4a1b9d75090bfcce3a453c = $(`<div id="html_6dbefd616c4a1b9d75090bfcce3a453c" style="width: 100.0%; height: 100.0%;">Station:Bellgrove Railway Station (North) - ELECTRIC , last checked:2024-02-09</div>`)[0];
+                popup_93519a2863d74c13641af7dad2b5d5f7.setContent(html_6dbefd616c4a1b9d75090bfcce3a453c);
+            
+        
+
+        marker_92325ef5abf98ce4f39c700af825cdec.bindPopup(popup_93519a2863d74c13641af7dad2b5d5f7)
+        ;
+
+        
+    
+    
+            marker_92325ef5abf98ce4f39c700af825cdec.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c7bf5f84a9cf86596882b98ce4b1be41 = L.marker(
+                [55.855152, -4.235294],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_75a7e1ad33e1d7f4454a9786b03655c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c7bf5f84a9cf86596882b98ce4b1be41.setIcon(icon_75a7e1ad33e1d7f4454a9786b03655c0);
+        
+    
+        var popup_fcce082dc67db04e6e719ef2cc3305b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55e6ac91a3898c869f22ab602c5bdb22 = $(`<div id="html_55e6ac91a3898c869f22ab602c5bdb22" style="width: 100.0%; height: 100.0%;">Station:Barrowlands - ELECTRIC, last checked:None</div>`)[0];
+                popup_fcce082dc67db04e6e719ef2cc3305b5.setContent(html_55e6ac91a3898c869f22ab602c5bdb22);
+            
+        
+
+        marker_c7bf5f84a9cf86596882b98ce4b1be41.bindPopup(popup_fcce082dc67db04e6e719ef2cc3305b5)
+        ;
+
+        
+    
+    
+            marker_c7bf5f84a9cf86596882b98ce4b1be41.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_34c827a87c19717d036c5942ca5204df = L.marker(
+                [55.848939, -4.226823],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_af1910df912242236fb72d701668be73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_34c827a87c19717d036c5942ca5204df.setIcon(icon_af1910df912242236fb72d701668be73);
+        
+    
+        var popup_7013575ab6961a51a708616724a5fee9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53c06c5118edb5077267155929cc906a = $(`<div id="html_53c06c5118edb5077267155929cc906a" style="width: 100.0%; height: 100.0%;">Station:Bridgeton, last checked:2024-02-09</div>`)[0];
+                popup_7013575ab6961a51a708616724a5fee9.setContent(html_53c06c5118edb5077267155929cc906a);
+            
+        
+
+        marker_34c827a87c19717d036c5942ca5204df.bindPopup(popup_7013575ab6961a51a708616724a5fee9)
+        ;
+
+        
+    
+    
+            marker_34c827a87c19717d036c5942ca5204df.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b51dc29c2ebbee5cfa2c98ace584b397 = L.marker(
+                [55.850554, -4.248127],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_4db67dc9d6d010ae8865536501bda079 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b51dc29c2ebbee5cfa2c98ace584b397.setIcon(icon_4db67dc9d6d010ae8865536501bda079);
+        
+    
+        var popup_2abc223a003bc54f9ad27ffef4e9905f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e436b64cddb76c70f3a40155a09bbeb = $(`<div id="html_7e436b64cddb76c70f3a40155a09bbeb" style="width: 100.0%; height: 100.0%;">Station:City of Glasgow College (Riverside Campus) - ELECTRIC, last checked:None</div>`)[0];
+                popup_2abc223a003bc54f9ad27ffef4e9905f.setContent(html_7e436b64cddb76c70f3a40155a09bbeb);
+            
+        
+
+        marker_b51dc29c2ebbee5cfa2c98ace584b397.bindPopup(popup_2abc223a003bc54f9ad27ffef4e9905f)
+        ;
+
+        
+    
+    
+            marker_b51dc29c2ebbee5cfa2c98ace584b397.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_23da30abe25893b60ed1a7a021cdf136 = L.marker(
+                [55.85378, -4.279158],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_c8466612a87e70d4f5350f21b82b8145 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_23da30abe25893b60ed1a7a021cdf136.setIcon(icon_c8466612a87e70d4f5350f21b82b8145);
+        
+    
+        var popup_74dcc888961563e0c5b6fc27e0573e62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b9cf67f624b1276c1ceba43d53e139d = $(`<div id="html_8b9cf67f624b1276c1ceba43d53e139d" style="width: 100.0%; height: 100.0%;">Station:Paisley Road Toll - ELECTRIC , last checked:2024-02-09</div>`)[0];
+                popup_74dcc888961563e0c5b6fc27e0573e62.setContent(html_8b9cf67f624b1276c1ceba43d53e139d);
+            
+        
+
+        marker_23da30abe25893b60ed1a7a021cdf136.bindPopup(popup_74dcc888961563e0c5b6fc27e0573e62)
+        ;
+
+        
+    
+    
+            marker_23da30abe25893b60ed1a7a021cdf136.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_27b16590a82a746e508c019bc213071b = L.marker(
+                [55.85196, -4.294538],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_be46a8616a7d62d4e0d17a56cb699d5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_27b16590a82a746e508c019bc213071b.setIcon(icon_be46a8616a7d62d4e0d17a56cb699d5e);
+        
+    
+        var popup_8dcd0e19971c8b2856480d61ffbfe893 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2098f4f348cd4acf59aeac6883e5b73 = $(`<div id="html_b2098f4f348cd4acf59aeac6883e5b73" style="width: 100.0%; height: 100.0%;">Station:Cessnock Subway Station - ELECTRIC, last checked:None</div>`)[0];
+                popup_8dcd0e19971c8b2856480d61ffbfe893.setContent(html_b2098f4f348cd4acf59aeac6883e5b73);
+            
+        
+
+        marker_27b16590a82a746e508c019bc213071b.bindPopup(popup_8dcd0e19971c8b2856480d61ffbfe893)
+        ;
+
+        
+    
+    
+            marker_27b16590a82a746e508c019bc213071b.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_491de19d8148e5e76cfc16b85c4244a3 = L.marker(
+                [55.863, -4.311378],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_fb9402680d51304b175fd5342b88c198 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_491de19d8148e5e76cfc16b85c4244a3.setIcon(icon_fb9402680d51304b175fd5342b88c198);
+        
+    
+        var popup_e3ed3782ea43046f37551672ee8d77fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9705fe92b50fbc6ea1e535e9f705574 = $(`<div id="html_f9705fe92b50fbc6ea1e535e9f705574" style="width: 100.0%; height: 100.0%;">Station:Govan Cross, last checked:2024-02-12</div>`)[0];
+                popup_e3ed3782ea43046f37551672ee8d77fa.setContent(html_f9705fe92b50fbc6ea1e535e9f705574);
+            
+        
+
+        marker_491de19d8148e5e76cfc16b85c4244a3.bindPopup(popup_e3ed3782ea43046f37551672ee8d77fa)
+        ;
+
+        
+    
+    
+            marker_491de19d8148e5e76cfc16b85c4244a3.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5dcc458f0c1da60dc1c72e7c22a70fc4 = L.marker(
+                [55.843308, -4.26217],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_27f2a772dbd9b046a848f99082f36c4e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5dcc458f0c1da60dc1c72e7c22a70fc4.setIcon(icon_27f2a772dbd9b046a848f99082f36c4e);
+        
+    
+        var popup_af9a4241eaa48fa92ab069c9f8d45c2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40c57b7336aa153663ca902238c6c2ef = $(`<div id="html_40c57b7336aa153663ca902238c6c2ef" style="width: 100.0%; height: 100.0%;">Station:Eglinton Toll - ELECTRIC, last checked:None</div>`)[0];
+                popup_af9a4241eaa48fa92ab069c9f8d45c2c.setContent(html_40c57b7336aa153663ca902238c6c2ef);
+            
+        
+
+        marker_5dcc458f0c1da60dc1c72e7c22a70fc4.bindPopup(popup_af9a4241eaa48fa92ab069c9f8d45c2c)
+        ;
+
+        
+    
+    
+            marker_5dcc458f0c1da60dc1c72e7c22a70fc4.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_65d5d8428d7d131d3eba225472f843d9 = L.marker(
+                [55.834976, -4.265485],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_45d1d385c9a26cebfe95705f7383519b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_65d5d8428d7d131d3eba225472f843d9.setIcon(icon_45d1d385c9a26cebfe95705f7383519b);
+        
+    
+        var popup_c2f8813372bb11cf3c910c64d01f714e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e35fafa582ac577a9b44cc6e92dedce = $(`<div id="html_1e35fafa582ac577a9b44cc6e92dedce" style="width: 100.0%; height: 100.0%;">Station:Queens Park Railway Station - ELECTRIC, last checked:2024-02-11</div>`)[0];
+                popup_c2f8813372bb11cf3c910c64d01f714e.setContent(html_1e35fafa582ac577a9b44cc6e92dedce);
+            
+        
+
+        marker_65d5d8428d7d131d3eba225472f843d9.bindPopup(popup_c2f8813372bb11cf3c910c64d01f714e)
+        ;
+
+        
+    
+    
+            marker_65d5d8428d7d131d3eba225472f843d9.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a78de0671b2d9b605372a9bb657d715b = L.marker(
+                [55.835042, -4.272346],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_21a62b776482dc5c4683975adaac12b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a78de0671b2d9b605372a9bb657d715b.setIcon(icon_21a62b776482dc5c4683975adaac12b0);
+        
+    
+        var popup_1a488671af7f6256c8bcde936688d7fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95e0d9387310ce291b14fa0f45a67103 = $(`<div id="html_95e0d9387310ce291b14fa0f45a67103" style="width: 100.0%; height: 100.0%;">Station:Queens Park West, last checked:2024-02-09</div>`)[0];
+                popup_1a488671af7f6256c8bcde936688d7fd.setContent(html_95e0d9387310ce291b14fa0f45a67103);
+            
+        
+
+        marker_a78de0671b2d9b605372a9bb657d715b.bindPopup(popup_1a488671af7f6256c8bcde936688d7fd)
+        ;
+
+        
+    
+    
+            marker_a78de0671b2d9b605372a9bb657d715b.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0a3b69a447fdc6034df9e565662fc67c = L.marker(
+                [55.864993, -4.252567],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_666e99ae6b088243222b68ed42084b72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0a3b69a447fdc6034df9e565662fc67c.setIcon(icon_666e99ae6b088243222b68ed42084b72);
+        
+    
+        var popup_3efedeb679ea80d3069d428647bfd187 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3e38b34f11050b0e6bc1c6174f7aa16 = $(`<div id="html_f3e38b34f11050b0e6bc1c6174f7aa16" style="width: 100.0%; height: 100.0%;">Station:Buchanan Street Bus Station - ELECTRIC, last checked:None</div>`)[0];
+                popup_3efedeb679ea80d3069d428647bfd187.setContent(html_f3e38b34f11050b0e6bc1c6174f7aa16);
+            
+        
+
+        marker_0a3b69a447fdc6034df9e565662fc67c.bindPopup(popup_3efedeb679ea80d3069d428647bfd187)
+        ;
+
+        
+    
+    
+            marker_0a3b69a447fdc6034df9e565662fc67c.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_edafbcd5cbcfd59722ce1ecb91939a86 = L.marker(
+                [55.883971, -4.31046],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_5039b51172ad047ae618789174a30e16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_edafbcd5cbcfd59722ce1ecb91939a86.setIcon(icon_5039b51172ad047ae618789174a30e16);
+        
+    
+        var popup_c91d74ad2bc30c49589ed88b0609673c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02ff4f87c7e89bed9ef850cef01740e0 = $(`<div id="html_02ff4f87c7e89bed9ef850cef01740e0" style="width: 100.0%; height: 100.0%;">Station:Gartnavel General Hospital, last checked:None</div>`)[0];
+                popup_c91d74ad2bc30c49589ed88b0609673c.setContent(html_02ff4f87c7e89bed9ef850cef01740e0);
+            
+        
+
+        marker_edafbcd5cbcfd59722ce1ecb91939a86.bindPopup(popup_c91d74ad2bc30c49589ed88b0609673c)
+        ;
+
+        
+    
+    
+            marker_edafbcd5cbcfd59722ce1ecb91939a86.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_33b688a4073816f8ecc2985ffd4260fa = L.marker(
+                [55.862838, -4.341885],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_3e48e8dab01d7e175c8d37efe9a5ccef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_33b688a4073816f8ecc2985ffd4260fa.setIcon(icon_3e48e8dab01d7e175c8d37efe9a5ccef);
+        
+    
+        var popup_c5f74079d3ffa792af22c287880db1fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd9fcc6f3ea12050891e0bec6d944641 = $(`<div id="html_bd9fcc6f3ea12050891e0bec6d944641" style="width: 100.0%; height: 100.0%;">Station:University Hospital, Queen Eliza, last checked:None</div>`)[0];
+                popup_c5f74079d3ffa792af22c287880db1fb.setContent(html_bd9fcc6f3ea12050891e0bec6d944641);
+            
+        
+
+        marker_33b688a4073816f8ecc2985ffd4260fa.bindPopup(popup_c5f74079d3ffa792af22c287880db1fb)
+        ;
+
+        
+    
+    
+            marker_33b688a4073816f8ecc2985ffd4260fa.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_caf1ef80872eeeec5c9ed1b5d3d926e9 = L.marker(
+                [55.864563, -4.270055],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_cb59551665cc0d6213c43c5a7374e87b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_caf1ef80872eeeec5c9ed1b5d3d926e9.setIcon(icon_cb59551665cc0d6213c43c5a7374e87b);
+        
+    
+        var popup_6a02661a8606c188e226a42be9060dca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46ba125febb44e3ff05774566e7b3613 = $(`<div id="html_46ba125febb44e3ff05774566e7b3613" style="width: 100.0%; height: 100.0%;">Station:Charing Cross Railway Station, last checked:None</div>`)[0];
+                popup_6a02661a8606c188e226a42be9060dca.setContent(html_46ba125febb44e3ff05774566e7b3613);
+            
+        
+
+        marker_caf1ef80872eeeec5c9ed1b5d3d926e9.bindPopup(popup_6a02661a8606c188e226a42be9060dca)
+        ;
+
+        
+    
+    
+            marker_caf1ef80872eeeec5c9ed1b5d3d926e9.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd019a6fb0b986f3c63f747eeaf8a811 = L.marker(
+                [55.865222, -4.286127],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_f4a37f7b0d95cbeefc068ea2ba690ffe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_fd019a6fb0b986f3c63f747eeaf8a811.setIcon(icon_f4a37f7b0d95cbeefc068ea2ba690ffe);
+        
+    
+        var popup_db9d12015a165a0ce163651243e6c629 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bdb8d1decef3a444a88013dde06357f7 = $(`<div id="html_bdb8d1decef3a444a88013dde06357f7" style="width: 100.0%; height: 100.0%;">Station:Kelvinhaugh Street / Argyle Street - ELECTRIC, last checked:2024-02-11</div>`)[0];
+                popup_db9d12015a165a0ce163651243e6c629.setContent(html_bdb8d1decef3a444a88013dde06357f7);
+            
+        
+
+        marker_fd019a6fb0b986f3c63f747eeaf8a811.bindPopup(popup_db9d12015a165a0ce163651243e6c629)
+        ;
+
+        
+    
+    
+            marker_fd019a6fb0b986f3c63f747eeaf8a811.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62c1f511627eb2e14390cda3268eee13 = L.marker(
+                [55.829057, -4.282675],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_115851d7751bb785ea3e1ab7ffe549dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_62c1f511627eb2e14390cda3268eee13.setIcon(icon_115851d7751bb785ea3e1ab7ffe549dc);
+        
+    
+        var popup_512a92153437423755fa3e535bfeba65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ea049b1df24e3a70d7dc98de3f86172 = $(`<div id="html_0ea049b1df24e3a70d7dc98de3f86172" style="width: 100.0%; height: 100.0%;">Station:Shawlands Shopping Centre (Kilmarnock Road), last checked:None</div>`)[0];
+                popup_512a92153437423755fa3e535bfeba65.setContent(html_0ea049b1df24e3a70d7dc98de3f86172);
+            
+        
+
+        marker_62c1f511627eb2e14390cda3268eee13.bindPopup(popup_512a92153437423755fa3e535bfeba65)
+        ;
+
+        
+    
+    
+            marker_62c1f511627eb2e14390cda3268eee13.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c85de9c7773b19831f853d60fd83444d = L.marker(
+                [55.831951, -4.277989],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_49f9d4afe1f21696725654f4400faf5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c85de9c7773b19831f853d60fd83444d.setIcon(icon_49f9d4afe1f21696725654f4400faf5c);
+        
+    
+        var popup_d795cfe9278065223e55808e40c76953 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15347ea8f76d8dce609a82a4a66be73a = $(`<div id="html_15347ea8f76d8dce609a82a4a66be73a" style="width: 100.0%; height: 100.0%;">Station:Langside Hall - ELECTRIC, last checked:2024-02-11</div>`)[0];
+                popup_d795cfe9278065223e55808e40c76953.setContent(html_15347ea8f76d8dce609a82a4a66be73a);
+            
+        
+
+        marker_c85de9c7773b19831f853d60fd83444d.bindPopup(popup_d795cfe9278065223e55808e40c76953)
+        ;
+
+        
+    
+    
+            marker_c85de9c7773b19831f853d60fd83444d.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_96d0af002187ded0a96047f2ee0611c1 = L.marker(
+                [55.827371, -4.29567],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_f74312c4e52b73950e164b6d8af6c362 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_96d0af002187ded0a96047f2ee0611c1.setIcon(icon_f74312c4e52b73950e164b6d8af6c362);
+        
+    
+        var popup_985cfe4f4c2534ed1b42a996e5254099 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5957c331f725f177def627f4933326c = $(`<div id="html_d5957c331f725f177def627f4933326c" style="width: 100.0%; height: 100.0%;">Station:Shawlands Railway Station - ELECTRIC, last checked:2024-02-14</div>`)[0];
+                popup_985cfe4f4c2534ed1b42a996e5254099.setContent(html_d5957c331f725f177def627f4933326c);
+            
+        
+
+        marker_96d0af002187ded0a96047f2ee0611c1.bindPopup(popup_985cfe4f4c2534ed1b42a996e5254099)
+        ;
+
+        
+    
+    
+            marker_96d0af002187ded0a96047f2ee0611c1.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62e0902b7732a38fd7a873ede97226d7 = L.marker(
+                [55.842561, -4.217704],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_50571a24b5cbd78c17c0abd87d711228 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_62e0902b7732a38fd7a873ede97226d7.setIcon(icon_50571a24b5cbd78c17c0abd87d711228);
+        
+    
+        var popup_81dc13acca16f44951c8f25120c6f7fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac423c0407ae9c0247e32968a6bfafd3 = $(`<div id="html_ac423c0407ae9c0247e32968a6bfafd3" style="width: 100.0%; height: 100.0%;">Station:Dalmarnock Railway Station - ELECTRIC, last checked:2024-02-12</div>`)[0];
+                popup_81dc13acca16f44951c8f25120c6f7fc.setContent(html_ac423c0407ae9c0247e32968a6bfafd3);
+            
+        
+
+        marker_62e0902b7732a38fd7a873ede97226d7.bindPopup(popup_81dc13acca16f44951c8f25120c6f7fc)
+        ;
+
+        
+    
+    
+            marker_62e0902b7732a38fd7a873ede97226d7.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bbaea5aff34616eb608b3e0c7eb88d37 = L.marker(
+                [55.863128, -4.210282],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_818e12ef8c229e7e597203274fb39222 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bbaea5aff34616eb608b3e0c7eb88d37.setIcon(icon_818e12ef8c229e7e597203274fb39222);
+        
+    
+        var popup_5de61de11caf5303600995a9c2abbf4c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3808cd2f31daf8e7812e0bf1a10374cd = $(`<div id="html_3808cd2f31daf8e7812e0bf1a10374cd" style="width: 100.0%; height: 100.0%;">Station:Alexandra Park (south entrance) Alexandra Parade Railway Station, last checked:None</div>`)[0];
+                popup_5de61de11caf5303600995a9c2abbf4c.setContent(html_3808cd2f31daf8e7812e0bf1a10374cd);
+            
+        
+
+        marker_bbaea5aff34616eb608b3e0c7eb88d37.bindPopup(popup_5de61de11caf5303600995a9c2abbf4c)
+        ;
+
+        
+    
+    
+            marker_bbaea5aff34616eb608b3e0c7eb88d37.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ade8a3c35e020e7444ed91fa79f1e7f9 = L.marker(
+                [55.858222, -4.213473],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_56a9b4b47ad073b6775d66f154c45a65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ade8a3c35e020e7444ed91fa79f1e7f9.setIcon(icon_56a9b4b47ad073b6775d66f154c45a65);
+        
+    
+        var popup_d4ca2ad673fa150fed89d499de36e9ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff1756057781f94003817599217ed32e = $(`<div id="html_ff1756057781f94003817599217ed32e" style="width: 100.0%; height: 100.0%;">Station:Duke Street Railway Station, last checked:None</div>`)[0];
+                popup_d4ca2ad673fa150fed89d499de36e9ff.setContent(html_ff1756057781f94003817599217ed32e);
+            
+        
+
+        marker_ade8a3c35e020e7444ed91fa79f1e7f9.bindPopup(popup_d4ca2ad673fa150fed89d499de36e9ff)
+        ;
+
+        
+    
+    
+            marker_ade8a3c35e020e7444ed91fa79f1e7f9.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_061f9631388fc644528f33d80e299a54 = L.marker(
+                [55.870992, -4.260426],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_e44cb413cbc0cda45ca558c8c63fd079 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_061f9631388fc644528f33d80e299a54.setIcon(icon_e44cb413cbc0cda45ca558c8c63fd079);
+        
+    
+        var popup_1c16826cb6b7edbcd275b7ddf0c01458 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8344ce0026828b85347f5ac73f80d3f0 = $(`<div id="html_8344ce0026828b85347f5ac73f80d3f0" style="width: 100.0%; height: 100.0%;">Station:Speirs Wharf - ELECTRIC, last checked:None</div>`)[0];
+                popup_1c16826cb6b7edbcd275b7ddf0c01458.setContent(html_8344ce0026828b85347f5ac73f80d3f0);
+            
+        
+
+        marker_061f9631388fc644528f33d80e299a54.bindPopup(popup_1c16826cb6b7edbcd275b7ddf0c01458)
+        ;
+
+        
+    
+    
+            marker_061f9631388fc644528f33d80e299a54.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_059cbe580faada1eb9d5efd309ad7c7b = L.marker(
+                [55.853194, -4.246983],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_ecf38578437d3ff9ebeed592aae0031c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_059cbe580faada1eb9d5efd309ad7c7b.setIcon(icon_ecf38578437d3ff9ebeed592aae0031c);
+        
+    
+        var popup_22ab4927b7cdc58ffbdf32befa0f0f96 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5c59a5c0cfa9c2470aed81f176ca2db = $(`<div id="html_e5c59a5c0cfa9c2470aed81f176ca2db" style="width: 100.0%; height: 100.0%;">Station:Glasgow Green - Saltmarket / Clyde Place - ELECTRIC, last checked:None</div>`)[0];
+                popup_22ab4927b7cdc58ffbdf32befa0f0f96.setContent(html_e5c59a5c0cfa9c2470aed81f176ca2db);
+            
+        
+
+        marker_059cbe580faada1eb9d5efd309ad7c7b.bindPopup(popup_22ab4927b7cdc58ffbdf32befa0f0f96)
+        ;
+
+        
+    
+    
+            marker_059cbe580faada1eb9d5efd309ad7c7b.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d0b65981c356385751bd43e35657660b = L.marker(
+                [55.855185, -4.273478],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_711dda5577413d03bf33d379328dfa46 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d0b65981c356385751bd43e35657660b.setIcon(icon_711dda5577413d03bf33d379328dfa46);
+        
+    
+        var popup_423660ba2d359ca80145baeed4fa2c71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40aa1447d96717c46dcf8c817d4e635d = $(`<div id="html_40aa1447d96717c46dcf8c817d4e635d" style="width: 100.0%; height: 100.0%;">Station:Springfield Quay 1, last checked:None</div>`)[0];
+                popup_423660ba2d359ca80145baeed4fa2c71.setContent(html_40aa1447d96717c46dcf8c817d4e635d);
+            
+        
+
+        marker_d0b65981c356385751bd43e35657660b.bindPopup(popup_423660ba2d359ca80145baeed4fa2c71)
+        ;
+
+        
+    
+    
+            marker_d0b65981c356385751bd43e35657660b.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_154618d1822c6b6f9d36f68c7781df2d = L.marker(
+                [55.854391, -4.274764],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_ac1f00da711e53ee6e3092c6ab7a7f0c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_154618d1822c6b6f9d36f68c7781df2d.setIcon(icon_ac1f00da711e53ee6e3092c6ab7a7f0c);
+        
+    
+        var popup_e29cf2d94a09a2fc1dbd7198c7c1a87f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0fceba454f39411c92ae886f74f330e4 = $(`<div id="html_0fceba454f39411c92ae886f74f330e4" style="width: 100.0%; height: 100.0%;">Station:Springfield Quay 2, last checked:None</div>`)[0];
+                popup_e29cf2d94a09a2fc1dbd7198c7c1a87f.setContent(html_0fceba454f39411c92ae886f74f330e4);
+            
+        
+
+        marker_154618d1822c6b6f9d36f68c7781df2d.bindPopup(popup_e29cf2d94a09a2fc1dbd7198c7c1a87f)
+        ;
+
+        
+    
+    
+            marker_154618d1822c6b6f9d36f68c7781df2d.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5417a8a2af268a799708a103f58ab9b8 = L.marker(
+                [55.865291, -4.261756],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_309e6f74b2abe2ebab14343d3e17ed5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5417a8a2af268a799708a103f58ab9b8.setIcon(icon_309e6f74b2abe2ebab14343d3e17ed5c);
+        
+    
+        var popup_20cd8c0dbf6887680eb2369839bad495 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8640ae5086f7af92998669f1083a77b2 = $(`<div id="html_8640ae5086f7af92998669f1083a77b2" style="width: 100.0%; height: 100.0%;">Station:Sauchiehall Street, last checked:2024-02-14</div>`)[0];
+                popup_20cd8c0dbf6887680eb2369839bad495.setContent(html_8640ae5086f7af92998669f1083a77b2);
+            
+        
+
+        marker_5417a8a2af268a799708a103f58ab9b8.bindPopup(popup_20cd8c0dbf6887680eb2369839bad495)
+        ;
+
+        
+    
+    
+            marker_5417a8a2af268a799708a103f58ab9b8.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d1a1dc1d15feb23d3230af4eed931c79 = L.marker(
+                [55.875061, -4.270678],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_b8613f26d11b15b986f51a698c0c25de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d1a1dc1d15feb23d3230af4eed931c79.setIcon(icon_b8613f26d11b15b986f51a698c0c25de);
+        
+    
+        var popup_fef1059c9675e542c09e27519355efd0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb1b78485fd368069fc70f4f751ed87b = $(`<div id="html_fb1b78485fd368069fc70f4f751ed87b" style="width: 100.0%; height: 100.0%;">Station:Woodside (North) - ELECTRIC, last checked:2024-02-14</div>`)[0];
+                popup_fef1059c9675e542c09e27519355efd0.setContent(html_fb1b78485fd368069fc70f4f751ed87b);
+            
+        
+
+        marker_d1a1dc1d15feb23d3230af4eed931c79.bindPopup(popup_fef1059c9675e542c09e27519355efd0)
+        ;
+
+        
+    
+    
+            marker_d1a1dc1d15feb23d3230af4eed931c79.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c8e6acb23249c46cb62592128d71b90d = L.marker(
+                [55.827395, -4.265319],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_4e15ed354a88a4f65b4163f4981d2c55 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c8e6acb23249c46cb62592128d71b90d.setIcon(icon_4e15ed354a88a4f65b4163f4981d2c55);
+        
+    
+        var popup_66ac2decfb25913b7f554f67b52c8b3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1ad3462589632c4e69ccf091365c693 = $(`<div id="html_c1ad3462589632c4e69ccf091365c693" style="width: 100.0%; height: 100.0%;">Station:Battlefield - ELECTRIC, last checked:None</div>`)[0];
+                popup_66ac2decfb25913b7f554f67b52c8b3a.setContent(html_c1ad3462589632c4e69ccf091365c693);
+            
+        
+
+        marker_c8e6acb23249c46cb62592128d71b90d.bindPopup(popup_66ac2decfb25913b7f554f67b52c8b3a)
+        ;
+
+        
+    
+    
+            marker_c8e6acb23249c46cb62592128d71b90d.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_20d68fd33d8338d881d403cd8451a435 = L.marker(
+                [55.827282, -4.259255],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_8a99f37d66f049004963c3ad9b2097a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_20d68fd33d8338d881d403cd8451a435.setIcon(icon_8a99f37d66f049004963c3ad9b2097a0);
+        
+    
+        var popup_5502387f3fa9eec86caaec35ceffc52c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50f989577735420b3208090bef81262e = $(`<div id="html_50f989577735420b3208090bef81262e" style="width: 100.0%; height: 100.0%;">Station:Mount Florida Railway Station, last checked:None</div>`)[0];
+                popup_5502387f3fa9eec86caaec35ceffc52c.setContent(html_50f989577735420b3208090bef81262e);
+            
+        
+
+        marker_20d68fd33d8338d881d403cd8451a435.bindPopup(popup_5502387f3fa9eec86caaec35ceffc52c)
+        ;
+
+        
+    
+    
+            marker_20d68fd33d8338d881d403cd8451a435.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1c45e071ab3bb88ed636d54938ef8537 = L.marker(
+                [55.864472, -4.223208],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_3db3a4544c89555666c3860f64edb3d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1c45e071ab3bb88ed636d54938ef8537.setIcon(icon_3db3a4544c89555666c3860f64edb3d7);
+        
+    
+        var popup_bffe1103b9c3da72c880804fc50623e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efbf942600ee38d046fcc830aaf36ab1 = $(`<div id="html_efbf942600ee38d046fcc830aaf36ab1" style="width: 100.0%; height: 100.0%;">Station:Alexandra Parade (West) - ELECTRIC, last checked:2024-02-12</div>`)[0];
+                popup_bffe1103b9c3da72c880804fc50623e9.setContent(html_efbf942600ee38d046fcc830aaf36ab1);
+            
+        
+
+        marker_1c45e071ab3bb88ed636d54938ef8537.bindPopup(popup_bffe1103b9c3da72c880804fc50623e9)
+        ;
+
+        
+    
+    
+            marker_1c45e071ab3bb88ed636d54938ef8537.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f63c5bd83384356a5ed2472db4a582f2 = L.marker(
+                [55.877822, -4.254817],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_7e8f959415448bc16e174049fa3055e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f63c5bd83384356a5ed2472db4a582f2.setIcon(icon_7e8f959415448bc16e174049fa3055e7);
+        
+    
+        var popup_182110d4eece2a05fe2632440bb0e933 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2cb333847d0d0dae30bd5701c79e4fa = $(`<div id="html_b2cb333847d0d0dae30bd5701c79e4fa" style="width: 100.0%; height: 100.0%;">Station:Port Dundas, last checked:2024-02-14</div>`)[0];
+                popup_182110d4eece2a05fe2632440bb0e933.setContent(html_b2cb333847d0d0dae30bd5701c79e4fa);
+            
+        
+
+        marker_f63c5bd83384356a5ed2472db4a582f2.bindPopup(popup_182110d4eece2a05fe2632440bb0e933)
+        ;
+
+        
+    
+    
+            marker_f63c5bd83384356a5ed2472db4a582f2.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e19b59109d52ca51709449b1da72b456 = L.marker(
+                [55.878787, -4.26877],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_22381f806f236fd715f2ff28366cde48 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e19b59109d52ca51709449b1da72b456.setIcon(icon_22381f806f236fd715f2ff28366cde48);
+        
+    
+        var popup_d02de36bd95f79f51aa8ab3945301a50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1fca89126ef85497134cfc148c8d24b5 = $(`<div id="html_1fca89126ef85497134cfc148c8d24b5" style="width: 100.0%; height: 100.0%;">Station:Firhill Road - ELECTRIC, last checked:None</div>`)[0];
+                popup_d02de36bd95f79f51aa8ab3945301a50.setContent(html_1fca89126ef85497134cfc148c8d24b5);
+            
+        
+
+        marker_e19b59109d52ca51709449b1da72b456.bindPopup(popup_d02de36bd95f79f51aa8ab3945301a50)
+        ;
+
+        
+    
+    
+            marker_e19b59109d52ca51709449b1da72b456.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d104acbe577794a1f039e757f90bfb3e = L.marker(
+                [55.845807, -4.275232],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_df80ab9d80b5bf084da61c765cd44691 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d104acbe577794a1f039e757f90bfb3e.setIcon(icon_df80ab9d80b5bf084da61c765cd44691);
+        
+    
+        var popup_10a9f8fa3356a8fe01f2eecac9520769 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a49f7379352f86c95f4e2e29b4c4b23 = $(`<div id="html_8a49f7379352f86c95f4e2e29b4c4b23" style="width: 100.0%; height: 100.0%;">Station:Shields Road, last checked:None</div>`)[0];
+                popup_10a9f8fa3356a8fe01f2eecac9520769.setContent(html_8a49f7379352f86c95f4e2e29b4c4b23);
+            
+        
+
+        marker_d104acbe577794a1f039e757f90bfb3e.bindPopup(popup_10a9f8fa3356a8fe01f2eecac9520769)
+        ;
+
+        
+    
+    
+            marker_d104acbe577794a1f039e757f90bfb3e.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3b866cb156d7c8890b08b9fb0351fa2b = L.marker(
+                [55.860776, -4.258597],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_c3c06ca579ab0bad322b8d2622d67431 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3b866cb156d7c8890b08b9fb0351fa2b.setIcon(icon_c3c06ca579ab0bad322b8d2622d67431);
+        
+    
+        var popup_e6c2720a362e1539bce1887b78460e35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74b83e4e9018d1848fdf380b99db5332 = $(`<div id="html_74b83e4e9018d1848fdf380b99db5332" style="width: 100.0%; height: 100.0%;">Station:Central Station - ELECTRIC, last checked:2024-02-14</div>`)[0];
+                popup_e6c2720a362e1539bce1887b78460e35.setContent(html_74b83e4e9018d1848fdf380b99db5332);
+            
+        
+
+        marker_3b866cb156d7c8890b08b9fb0351fa2b.bindPopup(popup_e6c2720a362e1539bce1887b78460e35)
+        ;
+
+        
+    
+    
+            marker_3b866cb156d7c8890b08b9fb0351fa2b.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5d3b43d115f50367a75737e7e1492c9e = L.marker(
+                [55.886934, -4.285022],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_7b7b9899c056777f9d5d56c01a0d7b04 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5d3b43d115f50367a75737e7e1492c9e.setIcon(icon_7b7b9899c056777f9d5d56c01a0d7b04);
+        
+    
+        var popup_dfcca25f684478da5d86ba9111cfbc0d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1651a18d3abfe43e012c2885d1473b17 = $(`<div id="html_1651a18d3abfe43e012c2885d1473b17" style="width: 100.0%; height: 100.0%;">Station:Shakespeare Street (Maryhill) - ELECTRIC, last checked:None</div>`)[0];
+                popup_dfcca25f684478da5d86ba9111cfbc0d.setContent(html_1651a18d3abfe43e012c2885d1473b17);
+            
+        
+
+        marker_5d3b43d115f50367a75737e7e1492c9e.bindPopup(popup_dfcca25f684478da5d86ba9111cfbc0d)
+        ;
+
+        
+    
+    
+            marker_5d3b43d115f50367a75737e7e1492c9e.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2fd15378ee052f5a80a7aa549d810d32 = L.marker(
+                [55.881493, -4.254465],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_97e89bf1005355622de48549b2a26126 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2fd15378ee052f5a80a7aa549d810d32.setIcon(icon_97e89bf1005355622de48549b2a26126);
+        
+    
+        var popup_c3d564022151ce312ccf56099f1df76c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1940d4c652dcbe905b69a0b44965cffd = $(`<div id="html_1940d4c652dcbe905b69a0b44965cffd" style="width: 100.0%; height: 100.0%;">Station:Possil Health Centre (Saracen Street) - ELECTRIC, last checked:None</div>`)[0];
+                popup_c3d564022151ce312ccf56099f1df76c.setContent(html_1940d4c652dcbe905b69a0b44965cffd);
+            
+        
+
+        marker_2fd15378ee052f5a80a7aa549d810d32.bindPopup(popup_c3d564022151ce312ccf56099f1df76c)
+        ;
+
+        
+    
+    
+            marker_2fd15378ee052f5a80a7aa549d810d32.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_85212894be91ac0e00156f4b851cdaae = L.marker(
+                [55.865063, -4.260291],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_434fe1b77586ac463b18b71eb9f168bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flash", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_85212894be91ac0e00156f4b851cdaae.setIcon(icon_434fe1b77586ac463b18b71eb9f168bc);
+        
+    
+        var popup_73c811411743a41334944e1d3d2f127a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b33d6bce0584c348f4330bff0fbceb4c = $(`<div id="html_b33d6bce0584c348f4330bff0fbceb4c" style="width: 100.0%; height: 100.0%;">Station:Cambridge Street - ELECTRIC, last checked:2024-02-13</div>`)[0];
+                popup_73c811411743a41334944e1d3d2f127a.setContent(html_b33d6bce0584c348f4330bff0fbceb4c);
+            
+        
+
+        marker_85212894be91ac0e00156f4b851cdaae.bindPopup(popup_73c811411743a41334944e1d3d2f127a)
+        ;
+
+        
+    
+    
+            marker_85212894be91ac0e00156f4b851cdaae.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_49035c321cd2ebad5194a84cc891c3fb = L.marker(
+                [55.852705, -4.201594],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_fff694f8b2b23bca1c96297f71357561 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_49035c321cd2ebad5194a84cc891c3fb.setIcon(icon_fff694f8b2b23bca1c96297f71357561);
+        
+    
+        var popup_5fa2b9f4d62f5fb66a8cdb9d9af456ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b55cf2f28a5e3ddcfad43686adf46fa8 = $(`<div id="html_b55cf2f28a5e3ddcfad43686adf46fa8" style="width: 100.0%; height: 100.0%;">Station:Glasgow Forge (Gallowgate), last checked:2024-02-12</div>`)[0];
+                popup_5fa2b9f4d62f5fb66a8cdb9d9af456ed.setContent(html_b55cf2f28a5e3ddcfad43686adf46fa8);
+            
+        
+
+        marker_49035c321cd2ebad5194a84cc891c3fb.bindPopup(popup_5fa2b9f4d62f5fb66a8cdb9d9af456ed)
+        ;
+
+        
+    
+    
+            marker_49035c321cd2ebad5194a84cc891c3fb.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e43f792c17204debf4a9b995e87a28b8 = L.marker(
+                [55.865683, -4.305367],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_263d1d875366121272fb705386690192 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e43f792c17204debf4a9b995e87a28b8.setIcon(icon_263d1d875366121272fb705386690192);
+        
+    
+        var popup_13a859b5be466936142461885368c863 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d5f2141ebf2ec93978e69a1be8a743c = $(`<div id="html_1d5f2141ebf2ec93978e69a1be8a743c" style="width: 100.0%; height: 100.0%;">Station:Riverside Museum, last checked:None</div>`)[0];
+                popup_13a859b5be466936142461885368c863.setContent(html_1d5f2141ebf2ec93978e69a1be8a743c);
+            
+        
+
+        marker_e43f792c17204debf4a9b995e87a28b8.bindPopup(popup_13a859b5be466936142461885368c863)
+        ;
+
+        
+    
+    
+            marker_e43f792c17204debf4a9b995e87a28b8.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cde62ac886581d3003c3d3db604e4867 = L.marker(
+                [55.850987, -4.301448],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_22a67ef1f868739a077b32094b7e0984 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cde62ac886581d3003c3d3db604e4867.setIcon(icon_22a67ef1f868739a077b32094b7e0984);
+        
+    
+        var popup_8dc55715c97dbb7f8bd041bd02762a04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e276733380cc8f355f1ebf95daae8b4 = $(`<div id="html_4e276733380cc8f355f1ebf95daae8b4" style="width: 100.0%; height: 100.0%;">Station:Ibrox, last checked:None</div>`)[0];
+                popup_8dc55715c97dbb7f8bd041bd02762a04.setContent(html_4e276733380cc8f355f1ebf95daae8b4);
+            
+        
+
+        marker_cde62ac886581d3003c3d3db604e4867.bindPopup(popup_8dc55715c97dbb7f8bd041bd02762a04)
+        ;
+
+        
+    
+    
+            marker_cde62ac886581d3003c3d3db604e4867.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d27802bbb6d99428a2da2255ddf93143 = L.marker(
+                [55.858587, -4.259847],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_3aaa2ceb5379a8e0c061744be3902fe2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d27802bbb6d99428a2da2255ddf93143.setIcon(icon_3aaa2ceb5379a8e0c061744be3902fe2);
+        
+    
+        var popup_e9b01eb776960416512d62afed855606 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b60e0480eb509bda56367987a1ef17e = $(`<div id="html_6b60e0480eb509bda56367987a1ef17e" style="width: 100.0%; height: 100.0%;">Station:Glasgow Central West, last checked:2024-02-13</div>`)[0];
+                popup_e9b01eb776960416512d62afed855606.setContent(html_6b60e0480eb509bda56367987a1ef17e);
+            
+        
+
+        marker_d27802bbb6d99428a2da2255ddf93143.bindPopup(popup_e9b01eb776960416512d62afed855606)
+        ;
+
+        
+    
+    
+            marker_d27802bbb6d99428a2da2255ddf93143.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f19592aacd54cf3e95878d93fdf72b43 = L.marker(
+                [55.85658, -4.26887],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_49ae1fe49b7948f65e58255d3b0bba73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f19592aacd54cf3e95878d93fdf72b43.setIcon(icon_49ae1fe49b7948f65e58255d3b0bba73);
+        
+    
+        var popup_0eda20b0a559434296e3fe0a1f3e5338 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e516c923ef4b6cb31a9b9827bdef2a35 = $(`<div id="html_e516c923ef4b6cb31a9b9827bdef2a35" style="width: 100.0%; height: 100.0%;">Station:Broomielaw West , last checked:None</div>`)[0];
+                popup_0eda20b0a559434296e3fe0a1f3e5338.setContent(html_e516c923ef4b6cb31a9b9827bdef2a35);
+            
+        
+
+        marker_f19592aacd54cf3e95878d93fdf72b43.bindPopup(popup_0eda20b0a559434296e3fe0a1f3e5338)
+        ;
+
+        
+    
+    
+            marker_f19592aacd54cf3e95878d93fdf72b43.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_99d8fabcf4fce69cb14e69d57d98e799 = L.marker(
+                [55.87422, -4.26136],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_e0f62e20471fe1a147b5e2cbb7f86aa0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_99d8fabcf4fce69cb14e69d57d98e799.setIcon(icon_e0f62e20471fe1a147b5e2cbb7f86aa0);
+        
+    
+        var popup_8022aec2fbe4c82a798763318d862857 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09aa1e249b89e8e6548692c420642507 = $(`<div id="html_09aa1e249b89e8e6548692c420642507" style="width: 100.0%; height: 100.0%;">Station:The Round Toll, last checked:None</div>`)[0];
+                popup_8022aec2fbe4c82a798763318d862857.setContent(html_09aa1e249b89e8e6548692c420642507);
+            
+        
+
+        marker_99d8fabcf4fce69cb14e69d57d98e799.bindPopup(popup_8022aec2fbe4c82a798763318d862857)
+        ;
+
+        
+    
+    
+            marker_99d8fabcf4fce69cb14e69d57d98e799.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_408a83db6988beb4af18b1c0102c4fcb = L.marker(
+                [55.85476, -4.25164],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_752a1feb1b4b0955211bfd442628b4b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_408a83db6988beb4af18b1c0102c4fcb.setIcon(icon_752a1feb1b4b0955211bfd442628b4b2);
+        
+    
+        var popup_0291d5c2f25b594237a8b9dc6dbb20db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4dfb08019bd693300a665daa6ddd9ab5 = $(`<div id="html_4dfb08019bd693300a665daa6ddd9ab5" style="width: 100.0%; height: 100.0%;">Station:Carrick Quay, last checked:2024-02-09</div>`)[0];
+                popup_0291d5c2f25b594237a8b9dc6dbb20db.setContent(html_4dfb08019bd693300a665daa6ddd9ab5);
+            
+        
+
+        marker_408a83db6988beb4af18b1c0102c4fcb.bindPopup(popup_0291d5c2f25b594237a8b9dc6dbb20db)
+        ;
+
+        
+    
+    
+            marker_408a83db6988beb4af18b1c0102c4fcb.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_281a179aa0e48a7c481d1b357f2cd1e7 = L.marker(
+                [55.864132, -4.259101],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_b7a11ee7dc668eeac9c08a32d373a448 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_281a179aa0e48a7c481d1b357f2cd1e7.setIcon(icon_b7a11ee7dc668eeac9c08a32d373a448);
+        
+    
+        var popup_bf5ee98557b86ec354498f6a2e347d26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d09a8c6f8ebec75657f12dbbb0a556c2 = $(`<div id="html_d09a8c6f8ebec75657f12dbbb0a556c2" style="width: 100.0%; height: 100.0%;">Station:Bath Street, last checked:None</div>`)[0];
+                popup_bf5ee98557b86ec354498f6a2e347d26.setContent(html_d09a8c6f8ebec75657f12dbbb0a556c2);
+            
+        
+
+        marker_281a179aa0e48a7c481d1b357f2cd1e7.bindPopup(popup_bf5ee98557b86ec354498f6a2e347d26)
+        ;
+
+        
+    
+    
+            marker_281a179aa0e48a7c481d1b357f2cd1e7.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_91f9a4d716bcf88987dfac1af1703ee0 = L.marker(
+                [55.85586, -4.24695],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_d8e8972f5da53fa43c63853567e9c3e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_91f9a4d716bcf88987dfac1af1703ee0.setIcon(icon_d8e8972f5da53fa43c63853567e9c3e8);
+        
+    
+        var popup_d1d1bdd4ba997aae570d5ce05afd20d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0f33423954be550d86f86acaac1a824 = $(`<div id="html_d0f33423954be550d86f86acaac1a824" style="width: 100.0%; height: 100.0%;">Station:King Street South, last checked:None</div>`)[0];
+                popup_d1d1bdd4ba997aae570d5ce05afd20d9.setContent(html_d0f33423954be550d86f86acaac1a824);
+            
+        
+
+        marker_91f9a4d716bcf88987dfac1af1703ee0.bindPopup(popup_d1d1bdd4ba997aae570d5ce05afd20d9)
+        ;
+
+        
+    
+    
+            marker_91f9a4d716bcf88987dfac1af1703ee0.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8286839d61981dfcd33c0dfdb41cfd6c = L.marker(
+                [55.876975, -4.306222],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_fbf0d670ad2fccb91498b1cf76774e23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8286839d61981dfcd33c0dfdb41cfd6c.setIcon(icon_fbf0d670ad2fccb91498b1cf76774e23);
+        
+    
+        var popup_fb40790b4d940f6d28861655106e91d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9761ed6419326595275781e704c7a03 = $(`<div id="html_a9761ed6419326595275781e704c7a03" style="width: 100.0%; height: 100.0%;">Station:Hyndland Road , last checked:2024-02-08</div>`)[0];
+                popup_fb40790b4d940f6d28861655106e91d7.setContent(html_a9761ed6419326595275781e704c7a03);
+            
+        
+
+        marker_8286839d61981dfcd33c0dfdb41cfd6c.bindPopup(popup_fb40790b4d940f6d28861655106e91d7)
+        ;
+
+        
+    
+    
+            marker_8286839d61981dfcd33c0dfdb41cfd6c.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b796a3c36dbd399fb274b7e1cdd632f3 = L.marker(
+                [55.871005, -4.321313],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_d45ba685e0f54662f646ca6c11e6c3c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b796a3c36dbd399fb274b7e1cdd632f3.setIcon(icon_d45ba685e0f54662f646ca6c11e6c3c9);
+        
+    
+        var popup_2f61b1ec9d2ac91638bbce713e5eaaf4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba770e48a4b9b0a55b44fc5db6260466 = $(`<div id="html_ba770e48a4b9b0a55b44fc5db6260466" style="width: 100.0%; height: 100.0%;">Station:Broomhill, last checked:None</div>`)[0];
+                popup_2f61b1ec9d2ac91638bbce713e5eaaf4.setContent(html_ba770e48a4b9b0a55b44fc5db6260466);
+            
+        
+
+        marker_b796a3c36dbd399fb274b7e1cdd632f3.bindPopup(popup_2f61b1ec9d2ac91638bbce713e5eaaf4)
+        ;
+
+        
+    
+    
+            marker_b796a3c36dbd399fb274b7e1cdd632f3.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b07e861c873b8de152e7d9b04ce3271c = L.marker(
+                [55.845518, -4.286476],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_fcbcb79dbe6a6fb1ed4f8fd1bb78b2fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b07e861c873b8de152e7d9b04ce3271c.setIcon(icon_fcbcb79dbe6a6fb1ed4f8fd1bb78b2fa);
+        
+    
+        var popup_62efe57705e94cb14ca56e6ab34e8563 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_837787b459b7eeb32ab5a05bfe3c24f1 = $(`<div id="html_837787b459b7eeb32ab5a05bfe3c24f1" style="width: 100.0%; height: 100.0%;">Station:St Andrews Drive @ Maxwell Drive, last checked:None</div>`)[0];
+                popup_62efe57705e94cb14ca56e6ab34e8563.setContent(html_837787b459b7eeb32ab5a05bfe3c24f1);
+            
+        
+
+        marker_b07e861c873b8de152e7d9b04ce3271c.bindPopup(popup_62efe57705e94cb14ca56e6ab34e8563)
+        ;
+
+        
+    
+    
+            marker_b07e861c873b8de152e7d9b04ce3271c.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aa2d9b9cd551f82e9aef4495f59ca09e = L.marker(
+                [55.878152, -4.242439],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_b7c0474377bdda2905c0a835bbe39818 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_aa2d9b9cd551f82e9aef4495f59ca09e.setIcon(icon_b7c0474377bdda2905c0a835bbe39818);
+        
+    
+        var popup_3fc11c2e789d567718f8fc84743e64d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28e230d3b99b60c00bb7b625932dd9e4 = $(`<div id="html_28e230d3b99b60c00bb7b625932dd9e4" style="width: 100.0%; height: 100.0%;">Station:St Rollox, last checked:2024-02-13</div>`)[0];
+                popup_3fc11c2e789d567718f8fc84743e64d9.setContent(html_28e230d3b99b60c00bb7b625932dd9e4);
+            
+        
+
+        marker_aa2d9b9cd551f82e9aef4495f59ca09e.bindPopup(popup_3fc11c2e789d567718f8fc84743e64d9)
+        ;
+
+        
+    
+    
+            marker_aa2d9b9cd551f82e9aef4495f59ca09e.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d90bb013e55e7b38ffc8420035db004 = L.marker(
+                [55.882232, -4.230428],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_2875a0cb08444a4d5f630e7953ff91bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9d90bb013e55e7b38ffc8420035db004.setIcon(icon_2875a0cb08444a4d5f630e7953ff91bb);
+        
+    
+        var popup_a5db50fbc424fe45467c05b6502d3cf0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_706af83e56619cfcb6a5919935d94725 = $(`<div id="html_706af83e56619cfcb6a5919935d94725" style="width: 100.0%; height: 100.0%;">Station:Springburn Railway Station, last checked:None</div>`)[0];
+                popup_a5db50fbc424fe45467c05b6502d3cf0.setContent(html_706af83e56619cfcb6a5919935d94725);
+            
+        
+
+        marker_9d90bb013e55e7b38ffc8420035db004.bindPopup(popup_a5db50fbc424fe45467c05b6502d3cf0)
+        ;
+
+        
+    
+    
+            marker_9d90bb013e55e7b38ffc8420035db004.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c67d9a21e4ccba734a3876479f225d09 = L.marker(
+                [55.8585, -4.292972],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_8563cbf86016a05ef6003dcac2c94465 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c67d9a21e4ccba734a3876479f225d09.setIcon(icon_8563cbf86016a05ef6003dcac2c94465);
+        
+    
+        var popup_9ecc757ab9b4b3459e07d3aa986c39fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7325be2e5e54d950eeaffe4fe491ff2 = $(`<div id="html_a7325be2e5e54d950eeaffe4fe491ff2" style="width: 100.0%; height: 100.0%;">Station:Glasgow Science Centre, last checked:2024-02-12</div>`)[0];
+                popup_9ecc757ab9b4b3459e07d3aa986c39fb.setContent(html_a7325be2e5e54d950eeaffe4fe491ff2);
+            
+        
+
+        marker_c67d9a21e4ccba734a3876479f225d09.bindPopup(popup_9ecc757ab9b4b3459e07d3aa986c39fb)
+        ;
+
+        
+    
+    
+            marker_c67d9a21e4ccba734a3876479f225d09.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dddc19c026ec3b060aebde7db6234f5c = L.marker(
+                [55.817338, -4.262688],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_e33c877e0cf2c57b16d979634c9374a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dddc19c026ec3b060aebde7db6234f5c.setIcon(icon_e33c877e0cf2c57b16d979634c9374a8);
+        
+    
+        var popup_bcbc55d946ce2f89419e763168c3f527 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e596c3339fa35d17b0f8ea2c53720cc = $(`<div id="html_2e596c3339fa35d17b0f8ea2c53720cc" style="width: 100.0%; height: 100.0%;">Station:Cathcart Railway Station, last checked:None</div>`)[0];
+                popup_bcbc55d946ce2f89419e763168c3f527.setContent(html_2e596c3339fa35d17b0f8ea2c53720cc);
+            
+        
+
+        marker_dddc19c026ec3b060aebde7db6234f5c.bindPopup(popup_bcbc55d946ce2f89419e763168c3f527)
+        ;
+
+        
+    
+    
+            marker_dddc19c026ec3b060aebde7db6234f5c.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3388309f00d45f810d2f86092c961fce = L.marker(
+                [55.836355, -4.335149],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_afbfe5b4b46904269a59574f1ba09f81 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3388309f00d45f810d2f86092c961fce.setIcon(icon_afbfe5b4b46904269a59574f1ba09f81);
+        
+    
+        var popup_3089eda8537534e20ce8c3961ea13787 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f6bca9141a4e67ef47f0bf157605ebc = $(`<div id="html_2f6bca9141a4e67ef47f0bf157605ebc" style="width: 100.0%; height: 100.0%;">Station:Corkerhill Railway Station, last checked:None</div>`)[0];
+                popup_3089eda8537534e20ce8c3961ea13787.setContent(html_2f6bca9141a4e67ef47f0bf157605ebc);
+            
+        
+
+        marker_3388309f00d45f810d2f86092c961fce.bindPopup(popup_3089eda8537534e20ce8c3961ea13787)
+        ;
+
+        
+    
+    
+            marker_3388309f00d45f810d2f86092c961fce.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d63576e1d7bb9edc2806360b583c69c = L.marker(
+                [55.841494, -4.269701],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_585d68cd00e1bbba1861eedddcbe73eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9d63576e1d7bb9edc2806360b583c69c.setIcon(icon_585d68cd00e1bbba1861eedddcbe73eb);
+        
+    
+        var popup_9a89e3bb2634d202de974ba5ab7dec4e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e18bb95f616f9818c140996c31d1bb8 = $(`<div id="html_9e18bb95f616f9818c140996c31d1bb8" style="width: 100.0%; height: 100.0%;">Station:Pollokshields East Railway, last checked:2024-02-05</div>`)[0];
+                popup_9a89e3bb2634d202de974ba5ab7dec4e.setContent(html_9e18bb95f616f9818c140996c31d1bb8);
+            
+        
+
+        marker_9d63576e1d7bb9edc2806360b583c69c.bindPopup(popup_9a89e3bb2634d202de974ba5ab7dec4e)
+        ;
+
+        
+    
+    
+            marker_9d63576e1d7bb9edc2806360b583c69c.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fa68f59639466a3e19dfb433b52a4505 = L.marker(
+                [55.840336, -4.135251],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_b3727d00c8aac1b4b5a5cc2914d4a1ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fa68f59639466a3e19dfb433b52a4505.setIcon(icon_b3727d00c8aac1b4b5a5cc2914d4a1ff);
+        
+    
+        var popup_b11292e5b91c16a50f393729a0fc2b2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c67c8b3464827ddbbc310c30473a1fc2 = $(`<div id="html_c67c8b3464827ddbbc310c30473a1fc2" style="width: 100.0%; height: 100.0%;">Station:Mount Vernon Railway Station, last checked:None</div>`)[0];
+                popup_b11292e5b91c16a50f393729a0fc2b2f.setContent(html_c67c8b3464827ddbbc310c30473a1fc2);
+            
+        
+
+        marker_fa68f59639466a3e19dfb433b52a4505.bindPopup(popup_b11292e5b91c16a50f393729a0fc2b2f)
+        ;
+
+        
+    
+    
+            marker_fa68f59639466a3e19dfb433b52a4505.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_97581aaa78dbce8466f6a587bb10d7ae = L.marker(
+                [55.867405, -4.192788],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_46b9ec24d33d91e61c4384b1d32041d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_97581aaa78dbce8466f6a587bb10d7ae.setIcon(icon_46b9ec24d33d91e61c4384b1d32041d2);
+        
+    
+        var popup_2d1de0bcf41d8a5d3eaad380923e0502 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03ea4e23bfb66f7c05f0ec7811afb0d3 = $(`<div id="html_03ea4e23bfb66f7c05f0ec7811afb0d3" style="width: 100.0%; height: 100.0%;">Station:Riddrie South, last checked:None</div>`)[0];
+                popup_2d1de0bcf41d8a5d3eaad380923e0502.setContent(html_03ea4e23bfb66f7c05f0ec7811afb0d3);
+            
+        
+
+        marker_97581aaa78dbce8466f6a587bb10d7ae.bindPopup(popup_2d1de0bcf41d8a5d3eaad380923e0502)
+        ;
+
+        
+    
+    
+            marker_97581aaa78dbce8466f6a587bb10d7ae.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3e192fc9cb40b4bf5c566bb50fbc6b35 = L.marker(
+                [55.891127, -4.290879],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_9915f3c50509c01c9d154fa153c2324a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3e192fc9cb40b4bf5c566bb50fbc6b35.setIcon(icon_9915f3c50509c01c9d154fa153c2324a);
+        
+    
+        var popup_32496f4639a8827bae6c1c4336494590 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f88fe49098d6aa22a54baf991c7cafaa = $(`<div id="html_f88fe49098d6aa22a54baf991c7cafaa" style="width: 100.0%; height: 100.0%;">Station:Maryhill Library, last checked:None</div>`)[0];
+                popup_32496f4639a8827bae6c1c4336494590.setContent(html_f88fe49098d6aa22a54baf991c7cafaa);
+            
+        
+
+        marker_3e192fc9cb40b4bf5c566bb50fbc6b35.bindPopup(popup_32496f4639a8827bae6c1c4336494590)
+        ;
+
+        
+    
+    
+            marker_3e192fc9cb40b4bf5c566bb50fbc6b35.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_440b481a696f514646b2a263b05728b4 = L.marker(
+                [55.890398, -4.324766],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_61ff88fa57c734fe64e7b9e845c0068f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_440b481a696f514646b2a263b05728b4.setIcon(icon_61ff88fa57c734fe64e7b9e845c0068f);
+        
+    
+        var popup_19b1d953774e4aed9913d643ee7ee264 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e39237b574b07f4869331887781e486 = $(`<div id="html_9e39237b574b07f4869331887781e486" style="width: 100.0%; height: 100.0%;">Station:Anniesland Library, last checked:2024-02-10</div>`)[0];
+                popup_19b1d953774e4aed9913d643ee7ee264.setContent(html_9e39237b574b07f4869331887781e486);
+            
+        
+
+        marker_440b481a696f514646b2a263b05728b4.bindPopup(popup_19b1d953774e4aed9913d643ee7ee264)
+        ;
+
+        
+    
+    
+            marker_440b481a696f514646b2a263b05728b4.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a677b19929ddf59bba423f2ce4f67c20 = L.marker(
+                [55.848564, -4.250996],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_58da1b780d3ad6f3741603f988884268 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a677b19929ddf59bba423f2ce4f67c20.setIcon(icon_58da1b780d3ad6f3741603f988884268);
+        
+    
+        var popup_f59cf33d2ea407d139fb2bfa3fb4a87b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca8a349a75166801d8fec8016d830e50 = $(`<div id="html_ca8a349a75166801d8fec8016d830e50" style="width: 100.0%; height: 100.0%;">Station:Gorbals Library, last checked:None</div>`)[0];
+                popup_f59cf33d2ea407d139fb2bfa3fb4a87b.setContent(html_ca8a349a75166801d8fec8016d830e50);
+            
+        
+
+        marker_a677b19929ddf59bba423f2ce4f67c20.bindPopup(popup_f59cf33d2ea407d139fb2bfa3fb4a87b)
+        ;
+
+        
+    
+    
+            marker_a677b19929ddf59bba423f2ce4f67c20.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_640d4a97cb6e8d837fdf58d9e5a4c694 = L.marker(
+                [55.862102, -4.252307],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_6994431e9200d02bcb815aaf4cc14374 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_640d4a97cb6e8d837fdf58d9e5a4c694.setIcon(icon_6994431e9200d02bcb815aaf4cc14374);
+        
+    
+        var popup_79eb128afa4d3f313f8ecdefde387880 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e91a063f8397706eb3375e1371f85232 = $(`<div id="html_e91a063f8397706eb3375e1371f85232" style="width: 100.0%; height: 100.0%;">Station:Queen Street Railway , last checked:None</div>`)[0];
+                popup_79eb128afa4d3f313f8ecdefde387880.setContent(html_e91a063f8397706eb3375e1371f85232);
+            
+        
+
+        marker_640d4a97cb6e8d837fdf58d9e5a4c694.bindPopup(popup_79eb128afa4d3f313f8ecdefde387880)
+        ;
+
+        
+    
+    
+            marker_640d4a97cb6e8d837fdf58d9e5a4c694.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a1c788f72519c2f233b53b98448c9e7f = L.marker(
+                [55.84425, -4.176167],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_78916a47cc9669c14f3215fed09c4477 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a1c788f72519c2f233b53b98448c9e7f.setIcon(icon_78916a47cc9669c14f3215fed09c4477);
+        
+    
+        var popup_a4673a6248d4f91449a5c18f38b6f7bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90e13f4cd25d00ab1df9ea2ff871dffe = $(`<div id="html_90e13f4cd25d00ab1df9ea2ff871dffe" style="width: 100.0%; height: 100.0%;">Station:Tollcross International Swimming Centre, last checked:None</div>`)[0];
+                popup_a4673a6248d4f91449a5c18f38b6f7bb.setContent(html_90e13f4cd25d00ab1df9ea2ff871dffe);
+            
+        
+
+        marker_a1c788f72519c2f233b53b98448c9e7f.bindPopup(popup_a4673a6248d4f91449a5c18f38b6f7bb)
+        ;
+
+        
+    
+    
+            marker_a1c788f72519c2f233b53b98448c9e7f.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35d07e708bdaa3c0c9d3ed9408704792 = L.marker(
+                [55.849072, -4.314376],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_a61bfef69b026ee1358a8bb7d16a40b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_35d07e708bdaa3c0c9d3ed9408704792.setIcon(icon_a61bfef69b026ee1358a8bb7d16a40b5);
+        
+    
+        var popup_c02286a7567b580be8df76c614084906 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a6a1e50c5af09bf2211f09ea2e416a7 = $(`<div id="html_6a6a1e50c5af09bf2211f09ea2e416a7" style="width: 100.0%; height: 100.0%;">Station:Bellahouston Park, last checked:None</div>`)[0];
+                popup_c02286a7567b580be8df76c614084906.setContent(html_6a6a1e50c5af09bf2211f09ea2e416a7);
+            
+        
+
+        marker_35d07e708bdaa3c0c9d3ed9408704792.bindPopup(popup_c02286a7567b580be8df76c614084906)
+        ;
+
+        
+    
+    
+            marker_35d07e708bdaa3c0c9d3ed9408704792.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8801b4af745f8eec927b262eb1f2b51d = L.marker(
+                [55.829914, -4.306877],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_fdd144b1368b0d7eb32dada27987c35f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8801b4af745f8eec927b262eb1f2b51d.setIcon(icon_fdd144b1368b0d7eb32dada27987c35f);
+        
+    
+        var popup_047208d704bac144146d969c2e5bb65d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3c60661f18153f1b70f5f2d78c5e5bf = $(`<div id="html_d3c60661f18153f1b70f5f2d78c5e5bf" style="width: 100.0%; height: 100.0%;">Station:Burrell Collection, last checked:None</div>`)[0];
+                popup_047208d704bac144146d969c2e5bb65d.setContent(html_d3c60661f18153f1b70f5f2d78c5e5bf);
+            
+        
+
+        marker_8801b4af745f8eec927b262eb1f2b51d.bindPopup(popup_047208d704bac144146d969c2e5bb65d)
+        ;
+
+        
+    
+    
+            marker_8801b4af745f8eec927b262eb1f2b51d.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_edf7ec9d36f7aee1cc608f7b0308afab = L.marker(
+                [55.874555, -4.333357],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_6db3710963f8c39a3982780af2dfc43d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_edf7ec9d36f7aee1cc608f7b0308afab.setIcon(icon_6db3710963f8c39a3982780af2dfc43d);
+        
+    
+        var popup_cd35a257e11eb1b5e5751d5df6ccdf7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45c2f634b8f32f04b637c6b9b0250946 = $(`<div id="html_45c2f634b8f32f04b637c6b9b0250946" style="width: 100.0%; height: 100.0%;">Station:Whiteinch Library, last checked:None</div>`)[0];
+                popup_cd35a257e11eb1b5e5751d5df6ccdf7b.setContent(html_45c2f634b8f32f04b637c6b9b0250946);
+            
+        
+
+        marker_edf7ec9d36f7aee1cc608f7b0308afab.bindPopup(popup_cd35a257e11eb1b5e5751d5df6ccdf7b)
+        ;
+
+        
+    
+    
+            marker_edf7ec9d36f7aee1cc608f7b0308afab.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_744b835a13d236a4722f84155a0340bb = L.marker(
+                [55.848885, -4.20064],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_df617023491208b11e5ffa01c21359a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_744b835a13d236a4722f84155a0340bb.setIcon(icon_df617023491208b11e5ffa01c21359a9);
+        
+    
+        var popup_31b19a35b190cc7a2fd88df95ed652ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05073f1e68a4b450ad9d10a8cc3442dd = $(`<div id="html_05073f1e68a4b450ad9d10a8cc3442dd" style="width: 100.0%; height: 100.0%;">Station:Springfield Rd, last checked:None</div>`)[0];
+                popup_31b19a35b190cc7a2fd88df95ed652ae.setContent(html_05073f1e68a4b450ad9d10a8cc3442dd);
+            
+        
+
+        marker_744b835a13d236a4722f84155a0340bb.bindPopup(popup_31b19a35b190cc7a2fd88df95ed652ae)
+        ;
+
+        
+    
+    
+            marker_744b835a13d236a4722f84155a0340bb.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea73770e4737da600c35f51fdf09e6e9 = L.marker(
+                [55.86698, -4.278874],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_ed5a1c5b780c47d91af02728b9395059 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ea73770e4737da600c35f51fdf09e6e9.setIcon(icon_ed5a1c5b780c47d91af02728b9395059);
+        
+    
+        var popup_1824fc0b9e354d75595211c65ff43400 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f0a906dfbee6baee38e1bf7eae58bdb = $(`<div id="html_3f0a906dfbee6baee38e1bf7eae58bdb" style="width: 100.0%; height: 100.0%;">Station:Clifton St / Kelvingrove Park East, last checked:2024-02-14</div>`)[0];
+                popup_1824fc0b9e354d75595211c65ff43400.setContent(html_3f0a906dfbee6baee38e1bf7eae58bdb);
+            
+        
+
+        marker_ea73770e4737da600c35f51fdf09e6e9.bindPopup(popup_1824fc0b9e354d75595211c65ff43400)
+        ;
+
+        
+    
+    
+            marker_ea73770e4737da600c35f51fdf09e6e9.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f394e62b5a16532de16a9159fbf54bdf = L.marker(
+                [55.864135, -4.292988],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_e6132d0054820974bd270d7a0d10287e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f394e62b5a16532de16a9159fbf54bdf.setIcon(icon_e6132d0054820974bd270d7a0d10287e);
+        
+    
+        var popup_ceb7aaea6e88b72beb5d57d21329b71f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_badcde4416b9288bcdf0b12497b86391 = $(`<div id="html_badcde4416b9288bcdf0b12497b86391" style="width: 100.0%; height: 100.0%;">Station:Yorkhill Street South, last checked:2024-02-09</div>`)[0];
+                popup_ceb7aaea6e88b72beb5d57d21329b71f.setContent(html_badcde4416b9288bcdf0b12497b86391);
+            
+        
+
+        marker_f394e62b5a16532de16a9159fbf54bdf.bindPopup(popup_ceb7aaea6e88b72beb5d57d21329b71f)
+        ;
+
+        
+    
+    
+            marker_f394e62b5a16532de16a9159fbf54bdf.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f472222df4435f46889c3fc323c8a5f7 = L.marker(
+                [55.875431, -4.342325],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_4ae1937eb643d2ee1f5cd1a0023c64da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f472222df4435f46889c3fc323c8a5f7.setIcon(icon_4ae1937eb643d2ee1f5cd1a0023c64da);
+        
+    
+        var popup_f5f812fdadbd1becf4ce5a3fed367039 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_931d6d74aadcc0b3f4f46d6fae31d2bc = $(`<div id="html_931d6d74aadcc0b3f4f46d6fae31d2bc" style="width: 100.0%; height: 100.0%;">Station:Scotstoun South, last checked:2024-02-10</div>`)[0];
+                popup_f5f812fdadbd1becf4ce5a3fed367039.setContent(html_931d6d74aadcc0b3f4f46d6fae31d2bc);
+            
+        
+
+        marker_f472222df4435f46889c3fc323c8a5f7.bindPopup(popup_f5f812fdadbd1becf4ce5a3fed367039)
+        ;
+
+        
+    
+    
+            marker_f472222df4435f46889c3fc323c8a5f7.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f8b8afa8fd68509288a4dc69a6330e37 = L.marker(
+                [55.859996, -4.270163],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_9a472b717fea8ee469348c1b750ff78d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f8b8afa8fd68509288a4dc69a6330e37.setIcon(icon_9a472b717fea8ee469348c1b750ff78d);
+        
+    
+        var popup_1ad6a494581ce8ba87c017943dac584a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3fd3f50287b5f714c9de0a3d5d3eb5b4 = $(`<div id="html_3fd3f50287b5f714c9de0a3d5d3eb5b4" style="width: 100.0%; height: 100.0%;">Station:Anderston Railway Station, last checked:None</div>`)[0];
+                popup_1ad6a494581ce8ba87c017943dac584a.setContent(html_3fd3f50287b5f714c9de0a3d5d3eb5b4);
+            
+        
+
+        marker_f8b8afa8fd68509288a4dc69a6330e37.bindPopup(popup_1ad6a494581ce8ba87c017943dac584a)
+        ;
+
+        
+    
+    
+            marker_f8b8afa8fd68509288a4dc69a6330e37.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eddaad843e929e2d36edb53d1b01072e = L.marker(
+                [55.890389, -4.216525],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_ddcfbc768d3b03d2c5e14561281f1867 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_eddaad843e929e2d36edb53d1b01072e.setIcon(icon_ddcfbc768d3b03d2c5e14561281f1867);
+        
+    
+        var popup_acda1466ad2185cd88be82dafe117e2d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1523962805eb2739b88fc8998621402c = $(`<div id="html_1523962805eb2739b88fc8998621402c" style="width: 100.0%; height: 100.0%;">Station:Stobhill Hospital, last checked:2024-02-13</div>`)[0];
+                popup_acda1466ad2185cd88be82dafe117e2d.setContent(html_1523962805eb2739b88fc8998621402c);
+            
+        
+
+        marker_eddaad843e929e2d36edb53d1b01072e.bindPopup(popup_acda1466ad2185cd88be82dafe117e2d)
+        ;
+
+        
+    
+    
+            marker_eddaad843e929e2d36edb53d1b01072e.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6539e566bb6b7bbd5c6034a012729869 = L.marker(
+                [55.870857, -4.300665],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_1cb41a67ac14e552b110f570d81773a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_6539e566bb6b7bbd5c6034a012729869.setIcon(icon_1cb41a67ac14e552b110f570d81773a8);
+        
+    
+        var popup_8f112c93f729848d4310964fbed970db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8dfe607df593d89d271af4e57aa6d084 = $(`<div id="html_8dfe607df593d89d271af4e57aa6d084" style="width: 100.0%; height: 100.0%;">Station:Kelvinhall Subway, last checked:2024-02-11</div>`)[0];
+                popup_8f112c93f729848d4310964fbed970db.setContent(html_8dfe607df593d89d271af4e57aa6d084);
+            
+        
+
+        marker_6539e566bb6b7bbd5c6034a012729869.bindPopup(popup_8f112c93f729848d4310964fbed970db)
+        ;
+
+        
+    
+    
+            marker_6539e566bb6b7bbd5c6034a012729869.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ebfc304aa7854134fb1469c962b76563 = L.marker(
+                [55.840988, -4.289947],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_4f9dd18b896c529ed0f3bf03a2afe5a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ebfc304aa7854134fb1469c962b76563.setIcon(icon_4f9dd18b896c529ed0f3bf03a2afe5a8);
+        
+    
+        var popup_0c4d4e716b6964355cd0b2b23e1bbe61 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43156ebb66df9d9daf0b2d72ba7bd778 = $(`<div id="html_43156ebb66df9d9daf0b2d72ba7bd778" style="width: 100.0%; height: 100.0%;">Station:St Andrews Drive - Dalziel Drive, last checked:None</div>`)[0];
+                popup_0c4d4e716b6964355cd0b2b23e1bbe61.setContent(html_43156ebb66df9d9daf0b2d72ba7bd778);
+            
+        
+
+        marker_ebfc304aa7854134fb1469c962b76563.bindPopup(popup_0c4d4e716b6964355cd0b2b23e1bbe61)
+        ;
+
+        
+    
+    
+            marker_ebfc304aa7854134fb1469c962b76563.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ca65ea968c5fbd34c018dfb480e5ea7b = L.marker(
+                [55.827974, -4.247278],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_016f8f3c33cc68cd56e6dbde14d8bb91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ca65ea968c5fbd34c018dfb480e5ea7b.setIcon(icon_016f8f3c33cc68cd56e6dbde14d8bb91);
+        
+    
+        var popup_a442918b85f3b383f4a7a3e15c3aee91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b2d13258be1b016c78529d162450614 = $(`<div id="html_0b2d13258be1b016c78529d162450614" style="width: 100.0%; height: 100.0%;">Station:Hampden Park and Ride, last checked:None</div>`)[0];
+                popup_a442918b85f3b383f4a7a3e15c3aee91.setContent(html_0b2d13258be1b016c78529d162450614);
+            
+        
+
+        marker_ca65ea968c5fbd34c018dfb480e5ea7b.bindPopup(popup_a442918b85f3b383f4a7a3e15c3aee91)
+        ;
+
+        
+    
+    
+            marker_ca65ea968c5fbd34c018dfb480e5ea7b.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e76cb0937f3968a43276ab375437d24 = L.marker(
+                [55.837175, -4.170209],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_7e81e70d9cb798b5598c68312a9b55bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7e76cb0937f3968a43276ab375437d24.setIcon(icon_7e81e70d9cb798b5598c68312a9b55bb);
+        
+    
+        var popup_613ea85651e851461807aaabe21bc03e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01eb1a054eb162b91a3146dce14996c2 = $(`<div id="html_01eb1a054eb162b91a3146dce14996c2" style="width: 100.0%; height: 100.0%;">Station:Fullarton, last checked:2024-02-13</div>`)[0];
+                popup_613ea85651e851461807aaabe21bc03e.setContent(html_01eb1a054eb162b91a3146dce14996c2);
+            
+        
+
+        marker_7e76cb0937f3968a43276ab375437d24.bindPopup(popup_613ea85651e851461807aaabe21bc03e)
+        ;
+
+        
+    
+    
+            marker_7e76cb0937f3968a43276ab375437d24.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_61cd15b836d3984d53337c427ccc5a6f = L.marker(
+                [55.846552, -4.332797],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_8c4b874a00c8098ce319e7bdf0a5c122 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_61cd15b836d3984d53337c427ccc5a6f.setIcon(icon_8c4b874a00c8098ce319e7bdf0a5c122);
+        
+    
+        var popup_7923a290689634183ece8490722109a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_477b6988d9dbe665ed981560b260d9f1 = $(`<div id="html_477b6988d9dbe665ed981560b260d9f1" style="width: 100.0%; height: 100.0%;">Station:Maryland Drive, last checked:None</div>`)[0];
+                popup_7923a290689634183ece8490722109a1.setContent(html_477b6988d9dbe665ed981560b260d9f1);
+            
+        
+
+        marker_61cd15b836d3984d53337c427ccc5a6f.bindPopup(popup_7923a290689634183ece8490722109a1)
+        ;
+
+        
+    
+    
+            marker_61cd15b836d3984d53337c427ccc5a6f.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8469c0afd5f3e8fbe5ec8247ea3e1ca8 = L.marker(
+                [55.846524, -4.197475],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_d1a6268126b7fbc54629076eaa54265e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8469c0afd5f3e8fbe5ec8247ea3e1ca8.setIcon(icon_d1a6268126b7fbc54629076eaa54265e);
+        
+    
+        var popup_ee01761206e88e3dc80ddcbdb4099d16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51e3d6b8a3db2f5ca311741c0e73eb0a = $(`<div id="html_51e3d6b8a3db2f5ca311741c0e73eb0a" style="width: 100.0%; height: 100.0%;">Station:Parkhead, last checked:None</div>`)[0];
+                popup_ee01761206e88e3dc80ddcbdb4099d16.setContent(html_51e3d6b8a3db2f5ca311741c0e73eb0a);
+            
+        
+
+        marker_8469c0afd5f3e8fbe5ec8247ea3e1ca8.bindPopup(popup_ee01761206e88e3dc80ddcbdb4099d16)
+        ;
+
+        
+    
+    
+            marker_8469c0afd5f3e8fbe5ec8247ea3e1ca8.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_effc9380bf41f901ad80bb2b0931ad12 = L.marker(
+                [55.861585, -4.274518],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_649dabb9061b1d99cfbcfd96f3efb7d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_effc9380bf41f901ad80bb2b0931ad12.setIcon(icon_649dabb9061b1d99cfbcfd96f3efb7d0);
+        
+    
+        var popup_0c3ce712777da1192f178f2a962f7802 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6278413949210795f62ed7b353726c83 = $(`<div id="html_6278413949210795f62ed7b353726c83" style="width: 100.0%; height: 100.0%;">Station:Anderston West, last checked:None</div>`)[0];
+                popup_0c3ce712777da1192f178f2a962f7802.setContent(html_6278413949210795f62ed7b353726c83);
+            
+        
+
+        marker_effc9380bf41f901ad80bb2b0931ad12.bindPopup(popup_0c3ce712777da1192f178f2a962f7802)
+        ;
+
+        
+    
+    
+            marker_effc9380bf41f901ad80bb2b0931ad12.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3aa4876c23d9265f1c895b11b038d437 = L.marker(
+                [55.895974, -4.354877],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_e7115b4e2175453ae94065d8468717d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3aa4876c23d9265f1c895b11b038d437.setIcon(icon_e7115b4e2175453ae94065d8468717d4);
+        
+    
+        var popup_0abcb39775ec86900209a651ca83ceee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d37ae2ac4e5b266670c23161556a840b = $(`<div id="html_d37ae2ac4e5b266670c23161556a840b" style="width: 100.0%; height: 100.0%;">Station:Knightswood Park, last checked:None</div>`)[0];
+                popup_0abcb39775ec86900209a651ca83ceee.setContent(html_d37ae2ac4e5b266670c23161556a840b);
+            
+        
+
+        marker_3aa4876c23d9265f1c895b11b038d437.bindPopup(popup_0abcb39775ec86900209a651ca83ceee)
+        ;
+
+        
+    
+    
+            marker_3aa4876c23d9265f1c895b11b038d437.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3ded23e88a7613e2b62927799632f367 = L.marker(
+                [55.847638, -4.202957],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_ab16297228250cb2f89485669eddc01f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3ded23e88a7613e2b62927799632f367.setIcon(icon_ab16297228250cb2f89485669eddc01f);
+        
+    
+        var popup_1552a509515b39b4dbf0ecf7942b34a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_edaef5c5a6c8b1445aa20da9d6a68288 = $(`<div id="html_edaef5c5a6c8b1445aa20da9d6a68288" style="width: 100.0%; height: 100.0%;">Station:London Road Central, last checked:None</div>`)[0];
+                popup_1552a509515b39b4dbf0ecf7942b34a7.setContent(html_edaef5c5a6c8b1445aa20da9d6a68288);
+            
+        
+
+        marker_3ded23e88a7613e2b62927799632f367.bindPopup(popup_1552a509515b39b4dbf0ecf7942b34a7)
+        ;
+
+        
+    
+    
+            marker_3ded23e88a7613e2b62927799632f367.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d433887522124434d35d6de487f4828d = L.marker(
+                [55.875865, -4.319601],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_4feb75169d9300d6d3f99b3852f6f287 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d433887522124434d35d6de487f4828d.setIcon(icon_4feb75169d9300d6d3f99b3852f6f287);
+        
+    
+        var popup_561202d3ea3f871219601b382bd8f22d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e661140f53ee320488aacf13baa091ea = $(`<div id="html_e661140f53ee320488aacf13baa091ea" style="width: 100.0%; height: 100.0%;">Station:Broomhill Cross, last checked:2024-02-08</div>`)[0];
+                popup_561202d3ea3f871219601b382bd8f22d.setContent(html_e661140f53ee320488aacf13baa091ea);
+            
+        
+
+        marker_d433887522124434d35d6de487f4828d.bindPopup(popup_561202d3ea3f871219601b382bd8f22d)
+        ;
+
+        
+    
+    
+            marker_d433887522124434d35d6de487f4828d.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f7f32bc6eef7ff62718e05f7d695a1f8 = L.marker(
+                [55.824907, -4.299678],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_8f7526939ce1a9bb9fbc23aadd240ca1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f7f32bc6eef7ff62718e05f7d695a1f8.setIcon(icon_8f7526939ce1a9bb9fbc23aadd240ca1);
+        
+    
+        var popup_8af6dba243013e6a9709f1508c9fbfa1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a1f470d2277b85abad97c05b9803ad1 = $(`<div id="html_5a1f470d2277b85abad97c05b9803ad1" style="width: 100.0%; height: 100.0%;">Station:Pollokshaws West Railway Station, last checked:None</div>`)[0];
+                popup_8af6dba243013e6a9709f1508c9fbfa1.setContent(html_5a1f470d2277b85abad97c05b9803ad1);
+            
+        
+
+        marker_f7f32bc6eef7ff62718e05f7d695a1f8.bindPopup(popup_8af6dba243013e6a9709f1508c9fbfa1)
+        ;
+
+        
+    
+    
+            marker_f7f32bc6eef7ff62718e05f7d695a1f8.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_114207260a17e966ac153e3f247c5bea = L.marker(
+                [55.849924, -4.273727],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_aa0f94d9f96d8565bda44e4069eb2e7b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_114207260a17e966ac153e3f247c5bea.setIcon(icon_aa0f94d9f96d8565bda44e4069eb2e7b);
+        
+    
+        var popup_a9f6066fccefb46e15cd12b628ce376c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c9ad1dc9083b81a58ffa975fa57b0bb = $(`<div id="html_8c9ad1dc9083b81a58ffa975fa57b0bb" style="width: 100.0%; height: 100.0%;">Station:Shields Road Subway, last checked:None</div>`)[0];
+                popup_a9f6066fccefb46e15cd12b628ce376c.setContent(html_8c9ad1dc9083b81a58ffa975fa57b0bb);
+            
+        
+
+        marker_114207260a17e966ac153e3f247c5bea.bindPopup(popup_a9f6066fccefb46e15cd12b628ce376c)
+        ;
+
+        
+    
+    
+            marker_114207260a17e966ac153e3f247c5bea.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0fa4e7ded84c517cf9c9437f29492d35 = L.marker(
+                [55.854931, -4.260144],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_ef30645a336dad4151029f7803c4215f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0fa4e7ded84c517cf9c9437f29492d35.setIcon(icon_ef30645a336dad4151029f7803c4215f);
+        
+    
+        var popup_5ab11789ef8bfad2eb6f7a8135252925 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc1c7c4aa085e87b951a4df8a49c8480 = $(`<div id="html_bc1c7c4aa085e87b951a4df8a49c8480" style="width: 100.0%; height: 100.0%;">Station:Clyde Place Quay, last checked:None</div>`)[0];
+                popup_5ab11789ef8bfad2eb6f7a8135252925.setContent(html_bc1c7c4aa085e87b951a4df8a49c8480);
+            
+        
+
+        marker_0fa4e7ded84c517cf9c9437f29492d35.bindPopup(popup_5ab11789ef8bfad2eb6f7a8135252925)
+        ;
+
+        
+    
+    
+            marker_0fa4e7ded84c517cf9c9437f29492d35.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b69ddaf08465975d73fe817657f9d775 = L.marker(
+                [55.863885, -4.263682],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_de0bcb3733957b0a9eb361c91dc4515f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b69ddaf08465975d73fe817657f9d775.setIcon(icon_de0bcb3733957b0a9eb361c91dc4515f);
+        
+    
+        var popup_73bcd4e9fa99e99baa3cbca9fcd4b0df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34b0d228186083116b316d0fb82dd434 = $(`<div id="html_34b0d228186083116b316d0fb82dd434" style="width: 100.0%; height: 100.0%;">Station:Blythswood Square, last checked:2024-02-13</div>`)[0];
+                popup_73bcd4e9fa99e99baa3cbca9fcd4b0df.setContent(html_34b0d228186083116b316d0fb82dd434);
+            
+        
+
+        marker_b69ddaf08465975d73fe817657f9d775.bindPopup(popup_73bcd4e9fa99e99baa3cbca9fcd4b0df)
+        ;
+
+        
+    
+    
+            marker_b69ddaf08465975d73fe817657f9d775.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_758c59531e1b95b3038f0683526283cd = L.marker(
+                [55.852086, -4.237032],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_1161c717fedcc84885abfe0b3b5af5d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_758c59531e1b95b3038f0683526283cd.setIcon(icon_1161c717fedcc84885abfe0b3b5af5d6);
+        
+    
+        var popup_d5420172384d7b6eadc946c379f2d439 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe60410035857574e335e137d2336f0f = $(`<div id="html_fe60410035857574e335e137d2336f0f" style="width: 100.0%; height: 100.0%;">Station:People's Palace, last checked:None</div>`)[0];
+                popup_d5420172384d7b6eadc946c379f2d439.setContent(html_fe60410035857574e335e137d2336f0f);
+            
+        
+
+        marker_758c59531e1b95b3038f0683526283cd.bindPopup(popup_d5420172384d7b6eadc946c379f2d439)
+        ;
+
+        
+    
+    
+            marker_758c59531e1b95b3038f0683526283cd.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d64c51b2877a79963e2f5a69c8e2b40b = L.marker(
+                [55.857858, -4.203123],
+                {}
+            ).addTo(map_0e7171aebd91189cfa362545755a9075);
+        
+    
+            var icon_6b0b0d886d8a711838e30be9ddd78631 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "asterisk", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d64c51b2877a79963e2f5a69c8e2b40b.setIcon(icon_6b0b0d886d8a711838e30be9ddd78631);
+        
+    
+        var popup_f94b71c6ff4614ef3eb1eac167fcba37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1bcb26be63b7c661ec9c17da71ee8aef = $(`<div id="html_1bcb26be63b7c661ec9c17da71ee8aef" style="width: 100.0%; height: 100.0%;">Station:Glasgow Kelvin College East, last checked:None</div>`)[0];
+                popup_f94b71c6ff4614ef3eb1eac167fcba37.setContent(html_1bcb26be63b7c661ec9c17da71ee8aef);
+            
+        
+
+        marker_d64c51b2877a79963e2f5a69c8e2b40b.bindPopup(popup_f94b71c6ff4614ef3eb1eac167fcba37)
+        ;
+
+        
+    
+    
+            marker_d64c51b2877a79963e2f5a69c8e2b40b.bindTooltip(
+                `<div>
+                     click4deets
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

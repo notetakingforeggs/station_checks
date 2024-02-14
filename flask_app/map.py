@@ -5,7 +5,7 @@ from IPython.display import display, HTML
 import sqlite3
 
 def map():
-    conn = sqlite3.connect("stations.db")
+    conn = sqlite3.connect("../whatsapp_scraper/stations.db")
     cursor = conn.cursor()
 
     # Create a map centered at a specific location (glasgow central)

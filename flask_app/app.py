@@ -16,9 +16,6 @@ app.config["SESSION_TYPE"] = "filesystem"
 app.config['STATIC_FOLDER'] = 'static'
 Session(app) 
 
-# connect to stations database
-conn = sqlite3.connect("stations.db")
-cursor = conn.cursor()
 # map route
 @app.route("/")
 def map_index():
