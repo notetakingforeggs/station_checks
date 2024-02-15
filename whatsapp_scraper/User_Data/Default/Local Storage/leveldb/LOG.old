@@ -1,3 +1,5 @@
-2024/02/14-15:34:57.698 13ab9 Reusing MANIFEST /home/squarey/Desktop/wips/station_checks/User_Data/Default/Local Storage/leveldb/MANIFEST-000001
-2024/02/14-15:34:57.700 13ab9 Recovering log #7
-2024/02/14-15:34:57.701 13ab9 Reusing old log /home/squarey/Desktop/wips/station_checks/User_Data/Default/Local Storage/leveldb/000007.log 
+2024/02/15-13:56:11.742 22a9 Reusing MANIFEST /home/squarey/Desktop/wips/station_checks/whatsapp_scraper/User_Data/Default/Local Storage/leveldb/MANIFEST-000001
+2024/02/15-13:56:11.743 22a9 Recovering log #7
+2024/02/15-13:56:11.744 22a9 Level-0 table #9: started
+2024/02/15-13:56:11.747 22a9 Level-0 table #9: 14334 bytes OK
+2024/02/15-13:56:11.750 22a9 Delete type=0 #7

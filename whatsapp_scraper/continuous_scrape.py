@@ -36,7 +36,7 @@ import time
 # alterations to chromedriver to allow it to run headless, 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--no-sandbox")
-#chrome_options.add_argument("--headless")
+chrome_options.add_argument("--headless")
 chrome_options.add_argument("--disable-gpu")
 # this to solve issue of headless browser using old chrome or something?
 chrome_options.add_argument("user-agent=User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36")
@@ -57,25 +57,24 @@ driver = webdriver.Chrome(options=chrome_options)
 # get whatsapp webpage
 driver.get("https://web.whatsapp.com/") 
 
-# check for pre-existing QR code
-if not os.path.exists("static/QR.png"):
-    print("no QR and User data present, using as standin for logged in")
-    link_device(driver)    
-    
-# check for appropriate groupchat on page         
-else:
-    element_locator = (By.XPATH, '//span[text() = "Station Checks"]')
-    try:
-        station_checks = WebDriverWait(driver, 20).until(
-        EC.visibility_of_element_located(element_locator)
-    )
-    except TimeoutException:
-        print("couldnt find stationchecks")
-        driver.save_screenshot("thiswhereimat.png")
-        link_device(driver)
+# check for station checks first, because user data should be keeping it logged in.
+element_locator = (By.XPATH, '//span[text() = "Station Checks"]')
+try:
+    station_checks = WebDriverWait(driver, 15).until(
+    EC.visibility_of_element_located(element_locator)
+)
+    # initiate update
+    print("station checks found - initiating infinite update")
+    while True:
+        update_map(driver)
+        sleep(300)1
+# link device if no stationchecks
+except TimeoutException:
+    print("couldnt find stationchecks")
+    driver.save_screenshot("thiswhereimat.png")
+    link_device(driver)
 
-
-# else intitate infinite loop of update stations
+# then intitate infinite loop of update stations
 while True:
     update_map(driver)
-    sleep(3) 
+    sleep(300) 

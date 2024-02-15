@@ -58,7 +58,7 @@ def update_map(driver):
     while loop == False:
         try:
             counter +=1
-            today = driver.find_element(by=By.XPATH, value ='//span[text() = "THURSDAY"]')
+            today = driver.find_element(by=By.XPATH, value ='//span[text() = "YESTERDAY"]')
             print ("scrolling up complete")
             loop = True
         except NoSuchElementException:
