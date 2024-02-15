@@ -67,7 +67,7 @@ try:
     print("station checks found - initiating infinite update")
     while True:
         update_map(driver)
-        sleep(300)1
+        sleep(300)
 # link device if no stationchecks
 except TimeoutException:
     print("couldnt find stationchecks")

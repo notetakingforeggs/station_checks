@@ -1,3 +1,40 @@
-2024/02/15-13:56:58.270 232a Reusing MANIFEST /home/squarey/Desktop/wips/station_checks/whatsapp_scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/02/15-13:56:58.271 232a Recovering log #433
-2024/02/15-13:56:58.284 232a Reusing old log /home/squarey/Desktop/wips/station_checks/whatsapp_scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000433.log 
+2024/02/15-14:17:39.134 2d54 Reusing MANIFEST /home/squarey/Desktop/wips/station_checks/whatsapp_scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/02/15-14:17:39.135 2d54 Recovering log #433
+2024/02/15-14:17:39.181 2d54 Reusing old log /home/squarey/Desktop/wips/station_checks/whatsapp_scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000433.log 
+2024/02/15-14:22:32.589 2d55 Level-0 table #444: started
+2024/02/15-14:22:32.619 2d55 Level-0 table #444: 1187846 bytes OK
+2024/02/15-14:22:32.623 2d55 Delete type=0 #433
+2024/02/15-14:22:32.626 2d55 Compacting 1@1 + 7@2 files
+2024/02/15-14:22:32.734 2d55 Generated table #445@1: 65577 keys, 2266516 bytes
+2024/02/15-14:22:32.776 2d55 Generated table #446@1: 3945 keys, 2151492 bytes
+2024/02/15-14:22:32.817 2d55 Generated table #447@1: 12597 keys, 2183614 bytes
+2024/02/15-14:22:32.877 2d55 Generated table #448@1: 27447 keys, 2241749 bytes
+2024/02/15-14:22:32.936 2d55 Generated table #449@1: 53906 keys, 2190254 bytes
+2024/02/15-14:22:33.019 2d55 Generated table #450@1: 103049 keys, 2253930 bytes
+2024/02/15-14:22:33.029 2d55 Generated table #451@1: 9107 keys, 279541 bytes
+2024/02/15-14:22:33.030 2d55 Compacted 1@1 + 7@2 files => 13567096 bytes
+2024/02/15-14:22:33.032 2d55 compacted to: files[ 0 0 7 0 0 0 0 ]
+2024/02/15-14:22:33.032 2d55 Delete type=2 #440
+2024/02/15-14:22:33.032 2d55 Delete type=2 #441
+2024/02/15-14:22:33.032 2d55 Delete type=2 #437
+2024/02/15-14:22:33.032 2d55 Delete type=2 #438
+2024/02/15-14:22:33.032 2d55 Delete type=2 #444
+2024/02/15-14:22:33.032 2d55 Delete type=2 #435
+2024/02/15-14:22:33.032 2d55 Delete type=2 #439
+2024/02/15-14:22:33.032 2d55 Delete type=2 #436
+2024/02/15-14:23:41.347 2d55 Level-0 table #453: started
+2024/02/15-14:23:41.388 2d55 Level-0 table #453: 1030554 bytes OK
+2024/02/15-14:23:41.392 2d55 Delete type=0 #443
+2024/02/15-14:23:41.397 2d55 Compacting 1@1 + 4@2 files
+2024/02/15-14:23:41.490 2d55 Generated table #454@1: 65495 keys, 2267667 bytes
+2024/02/15-14:23:41.519 2d55 Generated table #455@1: 5650 keys, 2154903 bytes
+2024/02/15-14:23:41.568 2d55 Generated table #456@1: 11647 keys, 2178812 bytes
+2024/02/15-14:23:41.654 2d55 Generated table #457@1: 28655 keys, 2250955 bytes
+2024/02/15-14:23:41.658 2d55 Generated table #458@1: 520 keys, 121531 bytes
+2024/02/15-14:23:41.659 2d55 Compacted 1@1 + 4@2 files => 8973868 bytes
+2024/02/15-14:23:41.661 2d55 compacted to: files[ 0 0 8 0 0 0 0 ]
+2024/02/15-14:23:41.661 2d55 Delete type=2 #446
+2024/02/15-14:23:41.661 2d55 Delete type=2 #445
+2024/02/15-14:23:41.661 2d55 Delete type=2 #447
+2024/02/15-14:23:41.661 2d55 Delete type=2 #453
+2024/02/15-14:23:41.662 2d55 Delete type=2 #448

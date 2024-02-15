@@ -32,9 +32,9 @@ def map():
         try:
             if (days_unchecked == None):
                 colour = "red"
-            elif (days_unchecked < 2):
+            elif (days_unchecked < 3):
                 colour = "green"
-            elif (4 > days_unchecked > 1):
+            elif (6 > days_unchecked > 2):
                 colour = "orange"
             else:
                 colour = "red"
