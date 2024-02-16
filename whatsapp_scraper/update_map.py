@@ -89,7 +89,7 @@ def update_map(driver):
             contains_date = div['data-pre-plain-text']
             parsed_date = parse(contains_date,fuzzy=True)
             date = str(parsed_date.date())
-            #print(f"the date is: {date}")
+            print(f"the date is: {date}")
         
             # extract station ID
             station_id = None
@@ -102,7 +102,7 @@ def update_map(driver):
                         int(station_id)
                     else:
                         continue
-            #print("station code is:", station_id)
+            print("station code is:", station_id)
                 
 
             # update db to include the date last checked, and below to calculate the time since last checked. could combine to one line maybe?
