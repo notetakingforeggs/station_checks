@@ -1,24 +1,17 @@
-2024/02/16-12:02:46.773 411c Reusing MANIFEST /home/squarey/Desktop/wips/station_checks/whatsapp_scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/02/16-12:02:46.773 411c Recovering log #515
-2024/02/16-12:02:46.803 411c Reusing old log /home/squarey/Desktop/wips/station_checks/whatsapp_scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000515.log 
-2024/02/16-12:03:06.796 4122 Level-0 table #526: started
-2024/02/16-12:03:06.837 4122 Level-0 table #526: 1321471 bytes OK
-2024/02/16-12:03:06.841 4122 Delete type=0 #515
-2024/02/16-12:03:06.861 411d Compacting 1@1 + 7@2 files
-2024/02/16-12:03:06.992 411d Generated table #527@1: 74553 keys, 2286553 bytes
-2024/02/16-12:03:07.057 411d Generated table #528@1: 19983 keys, 2193476 bytes
-2024/02/16-12:03:07.099 411d Generated table #529@1: 3357 keys, 2159869 bytes
-2024/02/16-12:03:07.188 411d Generated table #530@1: 23594 keys, 2232053 bytes
-2024/02/16-12:03:07.266 411d Generated table #531@1: 20839 keys, 2190276 bytes
-2024/02/16-12:03:07.403 411d Generated table #532@1: 85851 keys, 2230687 bytes
-2024/02/16-12:03:07.518 411d Generated table #533@1: 83236 keys, 1925871 bytes
-2024/02/16-12:03:07.519 411d Compacted 1@1 + 7@2 files => 15218785 bytes
-2024/02/16-12:03:07.521 411d compacted to: files[ 0 0 7 0 0 0 0 ]
-2024/02/16-12:03:07.522 411d Delete type=2 #522
-2024/02/16-12:03:07.522 411d Delete type=2 #519
-2024/02/16-12:03:07.522 411d Delete type=2 #520
-2024/02/16-12:03:07.522 411d Delete type=2 #517
-2024/02/16-12:03:07.522 411d Delete type=2 #523
-2024/02/16-12:03:07.522 411d Delete type=2 #518
-2024/02/16-12:03:07.523 411d Delete type=2 #526
-2024/02/16-12:03:07.523 411d Delete type=2 #521
+2024/02/17-10:15:47.713 3c76 Reusing MANIFEST /home/squarey/Desktop/serving/station_checks/whatsapp_scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/02/17-10:15:47.714 3c76 Recovering log #554
+2024/02/17-10:15:47.748 3c76 Reusing old log /home/squarey/Desktop/serving/station_checks/whatsapp_scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000554.log 
+2024/02/17-10:16:07.119 3c71 Level-0 table #566: started
+2024/02/17-10:16:07.159 3c71 Level-0 table #566: 1339980 bytes OK
+2024/02/17-10:16:07.163 3c71 Delete type=0 #554
+2024/02/17-10:16:07.166 3c71 Compacting 1@1 + 8@2 files
+2024/02/17-10:16:07.255 3c71 Generated table #567@1: 84376 keys, 2231956 bytes
+2024/02/17-10:16:07.314 3c71 Generated table #568@1: 24291 keys, 2283822 bytes
+2024/02/17-10:16:07.348 3c71 Generated table #569@1: 3144 keys, 2151645 bytes
+2024/02/17-10:16:07.413 3c71 Generated table #570@1: 17325 keys, 2204573 bytes
+2024/02/17-10:16:07.498 3c71 Generated table #571@1: 26206 keys, 2228290 bytes
+2024/02/17-10:16:07.585 3c71 Generated table #572@1: 57936 keys, 2193760 bytes
+2024/02/17-10:16:07.681 3c71 Generated table #573@1: 102639 keys, 2252898 bytes
+2024/02/17-10:16:07.710 3c71 Generated table #574@1: 13790 keys, 408276 bytes
+2024/02/17-10:16:07.710 3c71 Compacted 1@1 + 8@2 files => 15955220 bytes
+2024/02/17-10:16:07.712 3c71 compacted to: files[ 0 0 8 0 0 0 0 ]

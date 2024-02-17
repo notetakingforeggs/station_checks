@@ -1,9 +1,15 @@
-2024/02/16-12:05:14.029 4208 Reusing MANIFEST /home/squarey/Desktop/wips/station_checks/whatsapp_scraper/User_Data/Default/Local Storage/leveldb/MANIFEST-000001
-2024/02/16-12:05:14.030 4208 Recovering log #16
-2024/02/16-12:05:14.031 4208 Reusing old log /home/squarey/Desktop/wips/station_checks/whatsapp_scraper/User_Data/Default/Local Storage/leveldb/000016.log 
-2024/02/16-12:15:49.060 4209 Level-0 table #20: started
-2024/02/16-12:15:49.063 4209 Level-0 table #20: 13347 bytes OK
-2024/02/16-12:15:49.066 4209 Delete type=0 #16
-2024/02/16-16:07:01.640 4209 Level-0 table #22: started
-2024/02/16-16:07:01.645 4209 Level-0 table #22: 13642 bytes OK
-2024/02/16-16:07:01.648 4209 Delete type=0 #19
+2024/02/17-10:59:20.515 5620 Reusing MANIFEST /home/squarey/Desktop/serving/station_checks/whatsapp_scraper/User_Data/Default/Local Storage/leveldb/MANIFEST-000001
+2024/02/17-10:59:20.516 5620 Recovering log #21
+2024/02/17-10:59:20.517 5620 Reusing old log /home/squarey/Desktop/serving/station_checks/whatsapp_scraper/User_Data/Default/Local Storage/leveldb/000021.log 
+2024/02/17-12:30:54.210 5622 Level-0 table #25: started
+2024/02/17-12:30:54.213 5622 Level-0 table #25: 13137 bytes OK
+2024/02/17-12:30:54.216 5622 Delete type=0 #21
+2024/02/17-12:30:54.217 5622 Compacting 4@0 + 1@1 files
+2024/02/17-12:30:54.221 5622 Generated table #26@0: 68 keys, 11915 bytes
+2024/02/17-12:30:54.221 5622 Compacted 4@0 + 1@1 files => 11915 bytes
+2024/02/17-12:30:54.224 5622 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/02/17-12:30:54.224 5622 Delete type=2 #25
+2024/02/17-12:30:54.225 5622 Delete type=2 #14
+2024/02/17-12:30:54.225 5622 Delete type=2 #20
+2024/02/17-12:30:54.225 5622 Delete type=2 #22
+2024/02/17-12:30:54.225 5622 Delete type=2 #17
