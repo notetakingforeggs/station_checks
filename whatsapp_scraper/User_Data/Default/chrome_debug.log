@@ -47,3 +47,7 @@
 [0217/161421.866956:INFO:policy_logger.cc(144)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping recommended platform policies because no policy file was found at: /etc/opt/chrome/policies/recommended
 [0217/162921.874680:INFO:policy_logger.cc(144)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping mandatory platform policies because no policy file was found at: /etc/opt/chrome/policies/managed
 [0217/162921.874867:INFO:policy_logger.cc(144)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping recommended platform policies because no policy file was found at: /etc/opt/chrome/policies/recommended
+[0217/163917.360146:ERROR:zygote_communication_linux.cc(290)] Failed to send GetTerminationStatus message to zygote
+[0217/163917.360295:WARNING:zygote_communication_linux.cc(302)] Socket closed prematurely.
+[0217/163917.373309:ERROR:zygote_communication_linux.cc(290)] Failed to send GetTerminationStatus message to zygote
+[0217/163917.373357:WARNING:zygote_communication_linux.cc(302)] Socket closed prematurely.
