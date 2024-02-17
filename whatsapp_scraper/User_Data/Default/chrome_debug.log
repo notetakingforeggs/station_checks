@@ -43,3 +43,7 @@
 [0217/154421.859978:INFO:policy_logger.cc(144)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping recommended platform policies because no policy file was found at: /etc/opt/chrome/policies/recommended
 [0217/155921.862802:INFO:policy_logger.cc(144)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping mandatory platform policies because no policy file was found at: /etc/opt/chrome/policies/managed
 [0217/155921.862991:INFO:policy_logger.cc(144)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping recommended platform policies because no policy file was found at: /etc/opt/chrome/policies/recommended
+[0217/161421.866806:INFO:policy_logger.cc(144)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping mandatory platform policies because no policy file was found at: /etc/opt/chrome/policies/managed
+[0217/161421.866956:INFO:policy_logger.cc(144)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping recommended platform policies because no policy file was found at: /etc/opt/chrome/policies/recommended
+[0217/162921.874680:INFO:policy_logger.cc(144)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping mandatory platform policies because no policy file was found at: /etc/opt/chrome/policies/managed
+[0217/162921.874867:INFO:policy_logger.cc(144)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping recommended platform policies because no policy file was found at: /etc/opt/chrome/policies/recommended
