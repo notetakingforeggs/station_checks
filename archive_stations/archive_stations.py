@@ -30,7 +30,9 @@ def populate_table(cursor, table_name):
                     last_checked,
                     days_since
                     )
-                    SELECT city,
+                    SELECT 
+                    id,
+                    city,
                     station_id,
                     name,
                     latitude,
@@ -39,8 +41,9 @@ def populate_table(cursor, table_name):
                     days_since
                     FROM stations
              ''')
+    conn.commit()
 
-conn = sqlite3.connect("stations.db")
+conn = sqlite3.connect("../whatsapp_scraper/stations.db")
 cursor = conn.cursor()
 table_name = "historical_station_checks_data"
 
