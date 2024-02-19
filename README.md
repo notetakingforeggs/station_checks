@@ -3,3 +3,5 @@ This is a repo for the station checks flask app i am making. Current focus is on
 
 ### future plans
 Transfer files from prvious repo that has the actions all available to the client, such that the website could be easily sent to another nextike branch and they could link their device, and it would populate a map for wherever etc.
+
+so index would be a login page, and also a list of active maps. 
