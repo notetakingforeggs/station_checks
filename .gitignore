@@ -2,7 +2,7 @@
 stations.db
 
 # whatsapp user date
-whatsapp_scraper/User_Data/
+whatsapp_scraper/User_Data
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
