@@ -1,6 +1,9 @@
 # my datatbase for this project
 stations.db
 
+# whatsapp user date
+whatsapp_scraper/User_Data/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
