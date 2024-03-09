@@ -36,11 +36,11 @@ import time
 
 # alterations to chromedriver to allow it to run headless, 
 chrome_options = webdriver.ChromeOptions()
-#chrome_options.add_argument("--no-sandbox")
-#chrome_options.add_argument("--headless")
+chrome_options.add_argument("--no-sandbox")
+chrome_options.add_argument("--headless")
 chrome_options.add_argument("--disable-gpu")
 # this to solve issue of headless browser using old chrome or something?
-#chrome_options.add_argument("user-agent=User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36")
+chrome_options.add_argument("user-agent=User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36")
 
 # this is to save the user data between sessions to avoid logging in each time
 chrome_options.add_argument('--user-data-dir=./User_Data')

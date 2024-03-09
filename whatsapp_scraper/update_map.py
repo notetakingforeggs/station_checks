@@ -58,6 +58,8 @@ def update_map(driver):
         try:
             counter +=1
             today = driver.find_element(by=By.XPATH, value =f'//span[text() = "{day_name}"]')
+            # below is to get oooold checks if lost in db
+            #today = driver.find_element(by=By.XPATH, value ='//span[text() = "2/16/2024"]')
             print ("scrolling up complete")
             loop = True
         except NoSuchElementException:

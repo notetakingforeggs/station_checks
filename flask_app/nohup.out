@@ -20,3 +20,32 @@
 [2024-02-20 19:43:29 +0000] [7522] [WARNING] Invalid request from ip=80.66.88.204: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
 [2024-02-20 22:07:47 +0000] [7522] [WARNING] Invalid request from ip=185.122.204.179: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
 [2024-02-21 08:47:52 +0000] [7522] [WARNING] Invalid request from ip=185.122.204.179: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
+[2024-03-09 18:23:08 +0000] [36632] [INFO] Starting gunicorn 21.2.0
+[2024-03-09 18:23:08 +0000] [36632] [ERROR] Connection in use: ('192.168.1.116', 8000)
+[2024-03-09 18:23:08 +0000] [36632] [ERROR] Retrying in 1 second.
+[2024-03-09 18:23:09 +0000] [36632] [ERROR] Connection in use: ('192.168.1.116', 8000)
+[2024-03-09 18:23:09 +0000] [36632] [ERROR] Retrying in 1 second.
+[2024-03-09 18:23:10 +0000] [36632] [ERROR] Connection in use: ('192.168.1.116', 8000)
+[2024-03-09 18:23:10 +0000] [36632] [ERROR] Retrying in 1 second.
+[2024-03-09 18:23:11 +0000] [36632] [ERROR] Connection in use: ('192.168.1.116', 8000)
+[2024-03-09 18:23:11 +0000] [36632] [ERROR] Retrying in 1 second.
+[2024-03-09 18:23:12 +0000] [36632] [ERROR] Connection in use: ('192.168.1.116', 8000)
+[2024-03-09 18:23:12 +0000] [36632] [ERROR] Retrying in 1 second.
+[2024-03-09 18:23:13 +0000] [36632] [ERROR] Can't connect to ('192.168.1.116', 8000)
+[2024-03-09 18:23:54 +0000] [36638] [INFO] Starting gunicorn 21.2.0
+[2024-03-09 18:23:54 +0000] [36638] [ERROR] Connection in use: ('192.168.1.116', 8000)
+[2024-03-09 18:23:54 +0000] [36638] [ERROR] Retrying in 1 second.
+[2024-03-09 18:23:55 +0000] [36638] [ERROR] Connection in use: ('192.168.1.116', 8000)
+[2024-03-09 18:23:55 +0000] [36638] [ERROR] Retrying in 1 second.
+[2024-03-09 18:23:56 +0000] [36638] [ERROR] Connection in use: ('192.168.1.116', 8000)
+[2024-03-09 18:23:56 +0000] [36638] [ERROR] Retrying in 1 second.
+[2024-03-09 18:23:57 +0000] [36638] [ERROR] Connection in use: ('192.168.1.116', 8000)
+[2024-03-09 18:23:57 +0000] [36638] [ERROR] Retrying in 1 second.
+[2024-03-09 18:23:58 +0000] [36638] [ERROR] Connection in use: ('192.168.1.116', 8000)
+[2024-03-09 18:23:58 +0000] [36638] [ERROR] Retrying in 1 second.
+[2024-03-09 18:23:59 +0000] [36638] [ERROR] Can't connect to ('192.168.1.116', 8000)
+[2024-03-09 18:25:28 +0000] [36649] [INFO] Starting gunicorn 21.2.0
+[2024-03-09 18:25:28 +0000] [36649] [INFO] Listening at: http://192.168.1.116:8000 (36649)
+[2024-03-09 18:25:28 +0000] [36649] [INFO] Using worker: sync
+[2024-03-09 18:25:28 +0000] [36650] [INFO] Booting worker with pid: 36650
+[2024-03-09 18:55:32 +0000] [36649] [INFO] Handling signal: winch
