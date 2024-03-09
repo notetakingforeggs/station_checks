@@ -1,8 +1,5 @@
-#TODO update function, mostly should be able to pull this from previously existing thing.flask 
-
-
 from dateutil.parser import parse
-
+import datetime
 from bs4 import BeautifulSoup
 
 # import selenium  
@@ -38,8 +35,6 @@ def update_map(driver):
     # assuming logging in has been done
     
     # find appropriate groupchat on page and click         
-    # delete this next line?
-    #element_locator = (By.XPATH, '//span[text() = "Station Checks"]')
     try:
         station_checks = WebDriverWait(driver, 20).until(
         EC.visibility_of_element_located(element_locator)
@@ -52,13 +47,17 @@ def update_map(driver):
     # click on station checks chat.
     station_checks.click()
 
+    # finding day to check from - setting 5 days priot (maybe excessive)
+    day_name = (datetime.datetime.now() - datetime.timedelta(days=5)).strftime('%A').upper()
+
     # scrolling up in whatsap chat
     loop = False
     counter = 0
+    
     while loop == False:
         try:
             counter +=1
-            today = driver.find_element(by=By.XPATH, value ='//span[text() = "YESTERDAY"]')
+            today = driver.find_element(by=By.XPATH, value =f'//span[text() = "{day_name}"]')
             print ("scrolling up complete")
             loop = True
         except NoSuchElementException:
@@ -108,8 +107,9 @@ def update_map(driver):
             # update db to include the date last checked, and below to calculate the time since last checked. could combine to one line maybe?
             cursor.execute("UPDATE stations SET last_checked = ? WHERE station_id = ?", (date, station_id,))
             conn.commit()
-    cursor.execute("UPDATE stations SET days_since = CAST(julianday('now') - julianday(last_checked) AS INTEGER);")        
+    cursor.execute("UPDATE stations SET days_since = CAST(julianday('now') - julianday(last_checked) AS INTEGER);")     
+    cursor.execute("UPDATE stations SET timestamp = datetime('now');")
     conn.commit()
     print("station last checked updated")
 
-    return True
+    return

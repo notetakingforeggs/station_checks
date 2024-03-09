@@ -29,7 +29,7 @@ def link_device(driver):
         print("QR should be visible, screenshot now")
 
         # screenshot QR   
-        QR.screenshot('static/QR.png')
+        QR.screenshot('QR.png')
                         
         # wait for presence of station checks chat to evaluate success QR scan - up to 60s 
         element_locator_2 = (By.XPATH, '//span[text() = "Station Checks"]')

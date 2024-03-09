@@ -5,6 +5,7 @@
 # and can put in a docker container i think? separately, so container for python script which just runs and updates. separate container with flask
 # app in it which draws from the other guy.
 
+import sys
 from link_device import link_device
 from update_map import update_map
 import sqlite3
@@ -35,11 +36,11 @@ import time
 
 # alterations to chromedriver to allow it to run headless, 
 chrome_options = webdriver.ChromeOptions()
-chrome_options.add_argument("--no-sandbox")
-chrome_options.add_argument("--headless")
+#chrome_options.add_argument("--no-sandbox")
+#chrome_options.add_argument("--headless")
 chrome_options.add_argument("--disable-gpu")
 # this to solve issue of headless browser using old chrome or something?
-chrome_options.add_argument("user-agent=User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36")
+#chrome_options.add_argument("user-agent=User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36")
 
 # this is to save the user data between sessions to avoid logging in each time
 chrome_options.add_argument('--user-data-dir=./User_Data')
@@ -64,17 +65,20 @@ try:
     EC.visibility_of_element_located(element_locator)
 )
     # initiate update
-    print("station checks found - initiating infinite update")
-    while True:
-        update_map(driver)
-        sleep(300)
+    print("station checks found - initiating update")
+    update_map(driver)
+    print("update complete - exiting")
+    driver.quit()
+    sys.exit()
+
 # link device if no stationchecks
 except TimeoutException:
     print("couldnt find stationchecks")
     driver.save_screenshot("thiswhereimat.png")
     link_device(driver)
 
-# then intitate infinite loop of update stations
-while True:
-    update_map(driver)
-    sleep(300) 
+# then intitate update map
+update_map(driver)
+print("update complete - exiting")
+driver.quit()
+sys.exit()

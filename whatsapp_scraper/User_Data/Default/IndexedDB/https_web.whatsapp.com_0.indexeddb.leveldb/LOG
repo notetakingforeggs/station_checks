@@ -1,28 +1,6 @@
-2024/02/21-08:55:18.203 5ba3 Reusing MANIFEST /home/squarey/Desktop/serving/station_checks/whatsapp_scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/02/21-08:55:18.204 5ba3 Recovering log #756
-2024/02/21-08:55:18.205 5ba3 Reusing old log /home/squarey/Desktop/serving/station_checks/whatsapp_scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000756.log 
-2024/02/21-08:55:39.171 5ba4 Level-0 table #769: started
-2024/02/21-08:55:39.209 5ba4 Level-0 table #769: 1216552 bytes OK
-2024/02/21-08:55:39.213 5ba4 Delete type=0 #756
-2024/02/21-08:55:39.267 5ba7 Compacting 1@1 + 9@2 files
-2024/02/21-08:55:39.385 5ba7 Generated table #770@1: 84128 keys, 2233309 bytes
-2024/02/21-08:55:39.498 5ba7 Generated table #771@1: 67431 keys, 2389596 bytes
-2024/02/21-08:55:39.563 5ba7 Generated table #772@1: 19180 keys, 2171459 bytes
-2024/02/21-08:55:39.603 5ba7 Generated table #773@1: 3106 keys, 2153521 bytes
-2024/02/21-08:55:39.674 5ba7 Generated table #774@1: 16470 keys, 2197634 bytes
-2024/02/21-08:55:39.775 5ba7 Generated table #775@1: 28869 keys, 2256991 bytes
-2024/02/21-08:55:39.846 5ba7 Generated table #776@1: 31458 keys, 2159828 bytes
-2024/02/21-08:55:39.938 5ba7 Generated table #777@1: 102108 keys, 2253707 bytes
-2024/02/21-08:55:40.011 5ba7 Generated table #778@1: 61931 keys, 1508121 bytes
-2024/02/21-08:55:40.011 5ba7 Compacted 1@1 + 9@2 files => 19324166 bytes
-2024/02/21-08:55:40.013 5ba7 compacted to: files[ 0 0 9 0 0 0 0 ]
-2024/02/21-08:55:40.014 5ba7 Delete type=2 #765
-2024/02/21-08:55:40.014 5ba7 Delete type=2 #759
-2024/02/21-08:55:40.014 5ba7 Delete type=2 #766
-2024/02/21-08:55:40.015 5ba7 Delete type=2 #760
-2024/02/21-08:55:40.015 5ba7 Delete type=2 #762
-2024/02/21-08:55:40.015 5ba7 Delete type=2 #764
-2024/02/21-08:55:40.015 5ba7 Delete type=2 #761
-2024/02/21-08:55:40.015 5ba7 Delete type=2 #769
-2024/02/21-08:55:40.015 5ba7 Delete type=2 #763
-2024/02/21-08:55:40.015 5ba7 Delete type=2 #758
+2024/03/09-17:59:22.190 a8b6 Reusing MANIFEST /home/ludic/Desktop/Codetoworkon/station_checks/whatsapp_scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/09-17:59:22.190 a8b6 Recovering log #536
+2024/03/09-17:59:22.300 a8b6 Reusing old log /home/ludic/Desktop/Codetoworkon/station_checks/whatsapp_scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000536.log 
+2024/03/09-17:59:46.159 a8b7 Level-0 table #546: started
+2024/03/09-17:59:46.199 a8b7 Level-0 table #546: 1201060 bytes OK
+2024/03/09-17:59:46.203 a8b7 Delete type=0 #536
