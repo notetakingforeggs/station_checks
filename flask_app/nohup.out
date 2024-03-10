@@ -49,3 +49,9 @@
 [2024-03-09 18:25:28 +0000] [36649] [INFO] Using worker: sync
 [2024-03-09 18:25:28 +0000] [36650] [INFO] Booting worker with pid: 36650
 [2024-03-09 18:55:32 +0000] [36649] [INFO] Handling signal: winch
+[2024-03-09 20:19:43 +0000] [36649] [CRITICAL] WORKER TIMEOUT (pid:36650)
+[2024-03-09 20:19:43 +0000] [36650] [INFO] Worker exiting (pid: 36650)
+[2024-03-09 20:19:43 +0000] [36649] [ERROR] Worker (pid:36650) exited with code 1
+[2024-03-09 20:19:43 +0000] [36649] [ERROR] Worker (pid:36650) exited with code 1.
+[2024-03-09 20:19:43 +0000] [47443] [INFO] Booting worker with pid: 47443
+[2024-03-10 07:47:08 +0000] [47443] [WARNING] Invalid request from ip=80.66.88.215: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'

@@ -1,12 +1,5 @@
-[43333:43333:0309/185347.660804:WARNING:chrome_main_delegate.cc(668)] This is Chrome version 121.0.6167.184 (not a warning)
-[43333:43333:0309/185347.701948:INFO:policy_logger.cc(144)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping mandatory platform policies because no policy file was found at: /etc/opt/chrome/policies/managed
-[43333:43333:0309/185347.701994:INFO:policy_logger.cc(144)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping recommended platform policies because no policy file was found at: /etc/opt/chrome/policies/recommended
-[43333:43333:0309/185347.820561:INFO:policy_logger.cc(144)] :components/enterprise/browser/controller/chrome_browser_cloud_management_controller.cc(168) Starting CBCM Controller Initialization
-[43333:43333:0309/185347.820628:INFO:policy_logger.cc(144)] :components/enterprise/browser/controller/chrome_browser_cloud_management_controller.cc(196) No machine level policy manager exists.
-[43373:43373:0309/185348.002547:WARNING:sandbox_linux.cc(418)] InitializeSandbox() called with multiple threads in process gpu-process.
-[43333:43333:0309/185348.031324:WARNING:bluez_dbus_manager.cc(248)] Floss manager not present, cannot set Floss enable/disable.
-[43333:43333:0309/185348.473369:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.ScreenSaver.GetActive: object_path= /org/freedesktop/ScreenSaver: org.freedesktop.DBus.Error.NotSupported: This method is not implemented
-[43333:43333:0309/185349.186864:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.", source:  (0)
-[43333:43333:0309/185349.186998:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.", source:  (0)
-[43333:43333:0309/185350.277853:INFO:CONSOLE(0)] "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.", source: https://web.whatsapp.com/ (0)
-[43333:43333:0309/185500.310212:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[60574:60574:0310/111502.276373:WARNING:chrome_main_delegate.cc(668)] This is Chrome version 121.0.6167.184 (not a warning)
+[60574:60574:0310/111502.318630:INFO:policy_logger.cc(144)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping mandatory platform policies because no policy file was found at: /etc/opt/chrome/policies/managed
+[60574:60574:0310/111502.318676:INFO:policy_logger.cc(144)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping recommended platform policies because no policy file was found at: /etc/opt/chrome/policies/recommended
+[60574:60574:0310/111502.333718:ERROR:ozone_platform_x11.cc(239)] Missing X server or $DISPLAY
+[60574:60574:0310/111502.333775:ERROR:env.cc(257)] The platform failed to initialize.  Exiting.

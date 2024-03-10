@@ -61,7 +61,7 @@ driver.get("https://web.whatsapp.com/")
 # check for station checks first, because user data should be keeping it logged in.
 element_locator = (By.XPATH, '//span[text() = "Station Checks"]')
 try:
-    station_checks = WebDriverWait(driver, 15).until(
+    station_checks = WebDriverWait(driver, 60).until(
     EC.visibility_of_element_located(element_locator)
 )
     # initiate update
