@@ -55,3 +55,55 @@
 [2024-03-09 20:19:43 +0000] [36649] [ERROR] Worker (pid:36650) exited with code 1.
 [2024-03-09 20:19:43 +0000] [47443] [INFO] Booting worker with pid: 47443
 [2024-03-10 07:47:08 +0000] [47443] [WARNING] Invalid request from ip=80.66.88.215: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
+[2024-03-10 15:52:44 +0000] [47443] [INFO] Worker exiting (pid: 47443)
+[2024-03-10 15:52:44 +0000] [69411] [INFO] Booting worker with pid: 69411
+[2024-03-10 15:52:59 +0000] [36649] [INFO] Handling signal: term
+[2024-03-10 15:52:59 +0000] [69411] [INFO] Worker exiting (pid: 69411)
+[2024-03-10 15:53:00 +0000] [36649] [INFO] Shutting down: Master
+[2024-03-10 15:53:17 +0000] [69421] [INFO] Starting gunicorn 21.2.0
+[2024-03-10 15:53:17 +0000] [69421] [INFO] Listening at: http://192.168.1.116:8000 (69421)
+[2024-03-10 15:53:17 +0000] [69421] [INFO] Using worker: sync
+[2024-03-10 15:53:17 +0000] [69422] [INFO] Booting worker with pid: 69422
+[2024-03-10 15:59:08 +0000] [69421] [INFO] Handling signal: int
+[2024-03-10 15:59:08 +0000] [69422] [INFO] Worker exiting (pid: 69422)
+[2024-03-10 15:59:09 +0000] [69421] [INFO] Shutting down: Master
+[2024-03-10 15:59:25 +0000] [69710] [INFO] Starting gunicorn 21.2.0
+[2024-03-10 15:59:25 +0000] [69710] [INFO] Listening at: http://192.168.1.116:8000 (69710)
+[2024-03-10 15:59:25 +0000] [69710] [INFO] Using worker: sync
+[2024-03-10 15:59:25 +0000] [69711] [INFO] Booting worker with pid: 69711
+/home/squarey/Desktop/serving/station_checks/flask_app/map.py:50: UserWarning: color argument of Icon should be one of: {'darkgreen', 'lightred', 'lightgray', 'cadetblue', 'beige', 'darkblue', 'darkpurple', 'black', 'purple', 'orange', 'pink', 'blue', 'white', 'lightgreen', 'red', 'darkred', 'green', 'lightblue', 'gray'}.
+  station_icon = folium.Icon(icon="flash", color = f"{colour}")
+/home/squarey/Desktop/serving/station_checks/flask_app/map.py:52: UserWarning: color argument of Icon should be one of: {'darkgreen', 'lightred', 'lightgray', 'cadetblue', 'beige', 'darkblue', 'darkpurple', 'black', 'purple', 'orange', 'pink', 'blue', 'white', 'lightgreen', 'red', 'darkred', 'green', 'lightblue', 'gray'}.
+  station_icon = folium.Icon(icon="asterisk",color = f"{colour}")
+[2024-03-10 15:59:56 +0000] [69710] [INFO] Handling signal: int
+[2024-03-10 15:59:56 +0000] [69711] [INFO] Worker exiting (pid: 69711)
+[2024-03-10 15:59:56 +0000] [69710] [INFO] Shutting down: Master
+[2024-03-10 16:00:21 +0000] [69872] [INFO] Starting gunicorn 21.2.0
+[2024-03-10 16:00:21 +0000] [69872] [INFO] Listening at: http://192.168.1.116:8000 (69872)
+[2024-03-10 16:00:21 +0000] [69872] [INFO] Using worker: sync
+[2024-03-10 16:00:21 +0000] [69873] [INFO] Booting worker with pid: 69873
+/home/squarey/Desktop/serving/station_checks/flask_app/map.py:50: UserWarning: color argument of Icon should be one of: {'orange', 'red', 'white', 'darkpurple', 'lightgreen', 'beige', 'darkgreen', 'green', 'lightblue', 'darkblue', 'gray', 'lightred', 'lightgray', 'pink', 'black', 'purple', 'darkred', 'blue', 'cadetblue'}.
+  station_icon = folium.Icon(icon="flash", color = f"{colour}")
+/home/squarey/Desktop/serving/station_checks/flask_app/map.py:52: UserWarning: color argument of Icon should be one of: {'orange', 'red', 'white', 'darkpurple', 'lightgreen', 'beige', 'darkgreen', 'green', 'lightblue', 'darkblue', 'gray', 'lightred', 'lightgray', 'pink', 'black', 'purple', 'darkred', 'blue', 'cadetblue'}.
+  station_icon = folium.Icon(icon="asterisk",color = f"{colour}")
+[2024-03-10 16:01:50 +0000] [69872] [INFO] Handling signal: int
+[2024-03-10 16:01:50 +0000] [69873] [INFO] Worker exiting (pid: 69873)
+[2024-03-10 16:01:50 +0000] [69872] [INFO] Shutting down: Master
+[2024-03-10 16:01:52 +0000] [69905] [INFO] Starting gunicorn 21.2.0
+[2024-03-10 16:01:52 +0000] [69905] [INFO] Listening at: http://192.168.1.116:8000 (69905)
+[2024-03-10 16:01:52 +0000] [69905] [INFO] Using worker: sync
+[2024-03-10 16:01:52 +0000] [69906] [INFO] Booting worker with pid: 69906
+[2024-03-10 16:02:14 +0000] [69905] [INFO] Handling signal: int
+[2024-03-10 16:02:15 +0000] [69906] [INFO] Worker exiting (pid: 69906)
+[2024-03-10 16:02:15 +0000] [69905] [INFO] Shutting down: Master
+[2024-03-10 16:02:46 +0000] [69943] [INFO] Starting gunicorn 21.2.0
+[2024-03-10 16:02:46 +0000] [69943] [INFO] Listening at: http://192.168.1.116:8000 (69943)
+[2024-03-10 16:02:46 +0000] [69943] [INFO] Using worker: sync
+[2024-03-10 16:02:46 +0000] [69944] [INFO] Booting worker with pid: 69944
+[2024-03-10 16:18:23 +0000] [69943] [INFO] Handling signal: int
+[2024-03-10 16:18:23 +0000] [69944] [INFO] Worker exiting (pid: 69944)
+[2024-03-10 16:18:23 +0000] [69943] [INFO] Shutting down: Master
+[2024-03-10 16:18:38 +0000] [70517] [INFO] Starting gunicorn 21.2.0
+[2024-03-10 16:18:38 +0000] [70517] [INFO] Listening at: http://192.168.1.116:8000 (70517)
+[2024-03-10 16:18:38 +0000] [70517] [INFO] Using worker: sync
+[2024-03-10 16:18:38 +0000] [70518] [INFO] Booting worker with pid: 70518

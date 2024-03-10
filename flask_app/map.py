@@ -36,8 +36,10 @@ def map():
                 colour = "green"
             elif (6 > days_unchecked > 2):
                 colour = "orange"
-            else:
+            elif(10 > days_unchecked > 5):
                 colour = "red"
+            else:
+                colour = "darkred"
             
         except TypeError:
             print("typeerrorboiiiii")
