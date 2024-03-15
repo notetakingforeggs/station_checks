@@ -58,6 +58,8 @@ driver = webdriver.Chrome(options=chrome_options)
 # get whatsapp webpage
 driver.get("https://web.whatsapp.com/") 
 
+#TODO put in a scoll down chats bit here, for personal phone swamping whatsapp chats
+
 # check for station checks first, because user data should be keeping it logged in.
 element_locator = (By.XPATH, '//span[text() = "Station Checks"]')
 try:

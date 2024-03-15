@@ -1,5 +1,1 @@
-[60574:60574:0310/111502.276373:WARNING:chrome_main_delegate.cc(668)] This is Chrome version 121.0.6167.184 (not a warning)
-[60574:60574:0310/111502.318630:INFO:policy_logger.cc(144)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping mandatory platform policies because no policy file was found at: /etc/opt/chrome/policies/managed
-[60574:60574:0310/111502.318676:INFO:policy_logger.cc(144)] :components/policy/core/common/config_dir_policy_loader.cc(118) Skipping recommended platform policies because no policy file was found at: /etc/opt/chrome/policies/recommended
-[60574:60574:0310/111502.333718:ERROR:ozone_platform_x11.cc(239)] Missing X server or $DISPLAY
-[60574:60574:0310/111502.333775:ERROR:env.cc(257)] The platform failed to initialize.  Exiting.
+[9223:9223:0313/104001.832710:WARNING:chrome_main_delegate.cc(668)] This is Chrome version 121.0.6167.184 (not a warning)

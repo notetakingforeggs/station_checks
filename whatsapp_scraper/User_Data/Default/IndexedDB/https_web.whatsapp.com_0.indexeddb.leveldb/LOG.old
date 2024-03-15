@@ -1,0 +1,77 @@
+2024/03/15-09:00:02.547 15d9c Reusing MANIFEST /home/squarey/Desktop/serving/station_checks/whatsapp_scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/15-09:00:02.551 15d9c Recovering log #9991
+2024/03/15-09:00:02.555 15d9c Reusing old log /home/squarey/Desktop/serving/station_checks/whatsapp_scraper/User_Data/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/009991.log 
+2024/03/15-09:00:02.555 15d9c Delete type=2 #9994
+2024/03/15-09:00:02.555 15d9c Delete type=2 #9995
+2024/03/15-09:00:02.556 15d9c Delete type=2 #9993
+2024/03/15-09:00:03.942 15d9b Compacting 1@0 + 1@1 files
+2024/03/15-09:00:03.979 15d9b Generated table #9994@0: 20894 keys, 401942 bytes
+2024/03/15-09:00:03.984 15d9b Generated table #9995@0: 1947 keys, 76472 bytes
+2024/03/15-09:00:03.991 15d9b Generated table #9996@0: 3083 keys, 77433 bytes
+2024/03/15-09:00:03.992 15d9b Generated table #9997@0: 5 keys, 267 bytes
+2024/03/15-09:00:03.992 15d9b Compacted 1@0 + 1@1 files => 556114 bytes
+2024/03/15-09:00:03.994 15d9b compacted to: files[ 0 4 31 0 0 0 0 ]
+2024/03/15-09:00:03.995 15d9b Delete type=2 #9992
+2024/03/15-09:00:03.995 15d9b Delete type=2 #9958
+2024/03/15-09:00:15.442 15da1 Compacting 1@1 + 10@2 files
+2024/03/15-09:00:15.600 15da1 Generated table #9998@1: 83132 keys, 2232121 bytes
+2024/03/15-09:00:15.736 15da1 Generated table #9999@1: 94629 keys, 2246516 bytes
+2024/03/15-09:00:15.873 15da1 Generated table #10000@1: 98448 keys, 2250912 bytes
+2024/03/15-09:00:16.011 15da1 Generated table #10001@1: 101520 keys, 2253409 bytes
+2024/03/15-09:00:16.232 15da1 Generated table #10002@1: 57049 keys, 2224624 bytes
+2024/03/15-09:00:16.310 15da1 Generated table #10003@1: 3674 keys, 2158631 bytes
+2024/03/15-09:00:16.382 15da1 Generated table #10004@1: 3242 keys, 2157908 bytes
+2024/03/15-09:00:16.440 15da1 Generated table #10005@1: 3686 keys, 2159144 bytes
+2024/03/15-09:00:16.550 15da1 Generated table #10006@1: 31332 keys, 2254986 bytes
+2024/03/15-09:00:16.654 15da1 Generated table #10007@1: 44411 keys, 2226913 bytes
+2024/03/15-09:00:16.654 15da1 Compacted 1@1 + 10@2 files => 22165164 bytes
+2024/03/15-09:00:16.658 15da1 compacted to: files[ 0 3 31 0 0 0 0 ]
+2024/03/15-09:00:17.075 15d9b Compacting 1@1 + 10@2 files
+2024/03/15-09:00:17.168 15d9b Generated table #10008@1: 12154 keys, 2180630 bytes
+2024/03/15-09:00:17.219 15d9b Generated table #10009@1: 6368 keys, 2129165 bytes
+2024/03/15-09:00:17.267 15d9b Generated table #10010@1: 7027 keys, 2129469 bytes
+2024/03/15-09:00:17.322 15d9b Generated table #10011@1: 8572 keys, 2129907 bytes
+2024/03/15-09:00:17.373 15d9b Generated table #10012@1: 8744 keys, 2132227 bytes
+2024/03/15-09:00:17.475 15d9b Generated table #10013@1: 55827 keys, 2190862 bytes
+2024/03/15-09:00:17.641 15d9b Generated table #10014@1: 110002 keys, 2261941 bytes
+2024/03/15-09:00:17.792 15d9b Generated table #10015@1: 108927 keys, 2258482 bytes
+2024/03/15-09:00:17.951 15d9b Generated table #10016@1: 108893 keys, 2259286 bytes
+2024/03/15-09:00:18.103 15d9b Generated table #10017@1: 108129 keys, 2259233 bytes
+2024/03/15-09:00:18.110 15d9b Generated table #10018@1: 3681 keys, 78183 bytes
+2024/03/15-09:00:18.110 15d9b Compacted 1@1 + 10@2 files => 22009385 bytes
+2024/03/15-09:00:18.113 15d9b compacted to: files[ 0 2 32 0 0 0 0 ]
+2024/03/15-09:00:18.114 15d9b Delete type=2 #9961
+2024/03/15-09:00:18.114 15d9b Delete type=2 #9962
+2024/03/15-09:00:18.114 15d9b Delete type=2 #9959
+2024/03/15-09:00:18.114 15d9b Delete type=2 #9965
+2024/03/15-09:00:18.114 15d9b Delete type=2 #9967
+2024/03/15-09:00:18.115 15d9b Delete type=2 #9994
+2024/03/15-09:00:18.115 15d9b Delete type=2 #9968
+2024/03/15-09:00:18.115 15d9b Delete type=2 #9966
+2024/03/15-09:00:18.115 15d9b Delete type=2 #9963
+2024/03/15-09:00:18.115 15d9b Delete type=2 #9964
+2024/03/15-09:00:18.115 15d9b Delete type=2 #9960
+2024/03/15-09:00:18.342 15d9c Compacting 1@1 + 11@2 files
+2024/03/15-09:00:18.521 15d9c Generated table #10019@1: 108372 keys, 2258768 bytes
+2024/03/15-09:00:18.745 15d9c Generated table #10020@1: 108424 keys, 2258699 bytes
+2024/03/15-09:00:18.910 15d9c Generated table #10021@1: 107853 keys, 2258234 bytes
+2024/03/15-09:00:19.086 15d9c Generated table #10022@1: 107587 keys, 2256818 bytes
+2024/03/15-09:00:19.252 15d9c Generated table #10023@1: 107940 keys, 2258503 bytes
+2024/03/15-09:00:19.431 15d9c Generated table #10024@1: 107527 keys, 2258070 bytes
+2024/03/15-09:00:19.664 15d9c Generated table #10025@1: 107940 keys, 2256990 bytes
+2024/03/15-09:00:19.815 15d9c Generated table #10026@1: 90185 keys, 2242375 bytes
+2024/03/15-09:00:19.928 15d9c Generated table #10027@1: 19971 keys, 2164630 bytes
+2024/03/15-09:00:20.037 15d9c Generated table #10028@1: 10871 keys, 1528685 bytes
+2024/03/15-09:00:20.037 15d9c Compacted 1@1 + 11@2 files => 21741772 bytes
+2024/03/15-09:00:20.050 15d9c compacted to: files[ 0 1 31 0 0 0 0 ]
+2024/03/15-09:00:20.051 15d9c Delete type=2 #9978
+2024/03/15-09:00:20.052 15d9c Delete type=2 #9972
+2024/03/15-09:00:20.052 15d9c Delete type=2 #9995
+2024/03/15-09:00:20.053 15d9c Delete type=2 #9976
+2024/03/15-09:00:20.053 15d9c Delete type=2 #9977
+2024/03/15-09:00:20.053 15d9c Delete type=2 #9975
+2024/03/15-09:00:20.054 15d9c Delete type=2 #9973
+2024/03/15-09:00:20.054 15d9c Delete type=2 #9969
+2024/03/15-09:00:20.054 15d9c Delete type=2 #9970
+2024/03/15-09:00:20.054 15d9c Delete type=2 #9971
+2024/03/15-09:00:20.054 15d9c Delete type=2 #9974

@@ -107,3 +107,81 @@
 [2024-03-10 16:18:38 +0000] [70517] [INFO] Listening at: http://192.168.1.116:8000 (70517)
 [2024-03-10 16:18:38 +0000] [70517] [INFO] Using worker: sync
 [2024-03-10 16:18:38 +0000] [70518] [INFO] Booting worker with pid: 70518
+[2024-03-11 08:34:57 +0000] [70517] [INFO] Handling signal: int
+[2024-03-11 08:34:58 +0000] [70518] [INFO] Worker exiting (pid: 70518)
+[2024-03-11 08:34:58 +0000] [70517] [INFO] Shutting down: Master
+[2024-03-11 08:35:00 +0000] [100537] [INFO] Starting gunicorn 21.2.0
+[2024-03-11 08:35:00 +0000] [100537] [INFO] Listening at: http://192.168.1.116:8000 (100537)
+[2024-03-11 08:35:00 +0000] [100537] [INFO] Using worker: sync
+[2024-03-11 08:35:00 +0000] [100538] [INFO] Booting worker with pid: 100538
+[2024-03-11 12:28:34 +0000] [100537] [CRITICAL] WORKER TIMEOUT (pid:100538)
+[2024-03-11 12:28:34 +0000] [100538] [INFO] Worker exiting (pid: 100538)
+[2024-03-11 12:28:34 +0000] [100537] [ERROR] Worker (pid:100538) exited with code 1
+[2024-03-11 12:28:34 +0000] [100537] [ERROR] Worker (pid:100538) exited with code 1.
+[2024-03-11 12:28:34 +0000] [108102] [INFO] Booting worker with pid: 108102
+[2024-03-11 13:19:06 +0000] [100537] [INFO] Handling signal: winch
+[2024-03-11 13:19:08 +0000] [100537] [INFO] Handling signal: int
+[2024-03-11 13:19:08 +0000] [108102] [INFO] Worker exiting (pid: 108102)
+[2024-03-11 13:19:08 +0000] [100537] [INFO] Shutting down: Master
+[2024-03-11 13:19:11 +0000] [109515] [INFO] Starting gunicorn 21.2.0
+[2024-03-11 13:19:11 +0000] [109515] [INFO] Listening at: http://192.168.1.116:8000 (109515)
+[2024-03-11 13:19:11 +0000] [109515] [INFO] Using worker: sync
+[2024-03-11 13:19:11 +0000] [109516] [INFO] Booting worker with pid: 109516
+[2024-03-11 13:29:59 +0000] [109515] [CRITICAL] WORKER TIMEOUT (pid:109516)
+[2024-03-11 13:29:59 +0000] [109516] [INFO] Worker exiting (pid: 109516)
+[2024-03-11 13:29:59 +0000] [109515] [ERROR] Worker (pid:109516) exited with code 1
+[2024-03-11 13:29:59 +0000] [109515] [ERROR] Worker (pid:109516) exited with code 1.
+[2024-03-11 13:29:59 +0000] [109901] [INFO] Booting worker with pid: 109901
+[2024-03-11 13:52:45 +0000] [109515] [CRITICAL] WORKER TIMEOUT (pid:109901)
+[2024-03-11 13:52:45 +0000] [109901] [INFO] Worker exiting (pid: 109901)
+[2024-03-11 13:52:45 +0000] [109515] [ERROR] Worker (pid:109901) exited with code 1
+[2024-03-11 13:52:45 +0000] [109515] [ERROR] Worker (pid:109901) exited with code 1.
+[2024-03-11 13:52:45 +0000] [112632] [INFO] Booting worker with pid: 112632
+[2024-03-11 13:53:16 +0000] [109515] [CRITICAL] WORKER TIMEOUT (pid:112632)
+[2024-03-11 13:53:16 +0000] [112632] [INFO] Worker exiting (pid: 112632)
+[2024-03-11 13:53:17 +0000] [109515] [ERROR] Worker (pid:112632) exited with code 1
+[2024-03-11 13:53:17 +0000] [109515] [ERROR] Worker (pid:112632) exited with code 1.
+[2024-03-11 13:53:17 +0000] [112636] [INFO] Booting worker with pid: 112636
+[2024-03-11 14:01:34 +0000] [109515] [CRITICAL] WORKER TIMEOUT (pid:112636)
+[2024-03-11 14:01:34 +0000] [112636] [INFO] Worker exiting (pid: 112636)
+[2024-03-11 14:01:34 +0000] [109515] [ERROR] Worker (pid:112636) exited with code 1
+[2024-03-11 14:01:34 +0000] [109515] [ERROR] Worker (pid:112636) exited with code 1.
+[2024-03-11 14:01:34 +0000] [112760] [INFO] Booting worker with pid: 112760
+[2024-03-11 14:06:18 +0000] [109515] [CRITICAL] WORKER TIMEOUT (pid:112760)
+[2024-03-11 14:06:18 +0000] [112760] [INFO] Worker exiting (pid: 112760)
+[2024-03-11 14:06:18 +0000] [109515] [ERROR] Worker (pid:112760) exited with code 1
+[2024-03-11 14:06:18 +0000] [109515] [ERROR] Worker (pid:112760) exited with code 1.
+[2024-03-11 14:06:18 +0000] [112821] [INFO] Booting worker with pid: 112821
+[2024-03-11 14:06:49 +0000] [109515] [CRITICAL] WORKER TIMEOUT (pid:112821)
+[2024-03-11 14:06:49 +0000] [112821] [INFO] Worker exiting (pid: 112821)
+[2024-03-11 14:06:49 +0000] [109515] [ERROR] Worker (pid:112821) exited with code 1
+[2024-03-11 14:06:49 +0000] [109515] [ERROR] Worker (pid:112821) exited with code 1.
+[2024-03-11 14:06:49 +0000] [112825] [INFO] Booting worker with pid: 112825
+[2024-03-11 22:58:14 +0000] [109515] [INFO] Handling signal: winch
+[2024-03-12 07:44:35 +0000] [109515] [CRITICAL] WORKER TIMEOUT (pid:112825)
+[2024-03-12 07:44:35 +0000] [112825] [INFO] Worker exiting (pid: 112825)
+[2024-03-12 07:44:36 +0000] [109515] [ERROR] Worker (pid:112825) exited with code 1
+[2024-03-12 07:44:36 +0000] [109515] [ERROR] Worker (pid:112825) exited with code 1.
+[2024-03-12 07:44:36 +0000] [129242] [INFO] Booting worker with pid: 129242
+[2024-03-12 22:38:04 +0000] [109515] [INFO] Handling signal: winch
+[2024-03-12 22:38:13 +0000] [109515] [INFO] Handling signal: int
+[2024-03-12 22:38:13 +0000] [129242] [INFO] Worker exiting (pid: 129242)
+[2024-03-12 22:38:13 +0000] [109515] [INFO] Shutting down: Master
+[2024-03-12 22:38:20 +0000] [159379] [INFO] Starting gunicorn 21.2.0
+[2024-03-12 22:38:20 +0000] [159379] [INFO] Listening at: http://192.168.1.116:8000 (159379)
+[2024-03-12 22:38:20 +0000] [159379] [INFO] Using worker: sync
+[2024-03-12 22:38:20 +0000] [159380] [INFO] Booting worker with pid: 159380
+[2024-03-12 22:38:52 +0000] [159379] [INFO] Handling signal: hup
+[2024-03-12 22:38:52 +0000] [159379] [INFO] Hang up: Master
+[2024-03-12 22:38:52 +0000] [159379] [ERROR] Worker (pid:159380) was sent SIGHUP!
+[2024-03-12 22:38:52 +0000] [159405] [INFO] Booting worker with pid: 159405
+[2024-03-13 09:11:18 +0000] [4311] [INFO] Starting gunicorn 21.2.0
+[2024-03-13 09:11:18 +0000] [4311] [INFO] Listening at: http://192.168.1.116:8000 (4311)
+[2024-03-13 09:11:18 +0000] [4311] [INFO] Using worker: sync
+[2024-03-13 09:11:18 +0000] [4312] [INFO] Booting worker with pid: 4312
+[2024-03-14 04:37:06 +0000] [4312] [WARNING] Invalid request from ip=152.32.151.121: Invalid HTTP request line: ''
+[2024-03-14 22:33:41 +0000] [4311] [CRITICAL] WORKER TIMEOUT (pid:4312)
+[2024-03-14 22:33:41 +0000] [4312] [INFO] Worker exiting (pid: 4312)
+[2024-03-14 22:33:41 +0000] [4311] [ERROR] Worker (pid:4312) exited with code 1
+[2024-03-14 22:33:41 +0000] [4311] [ERROR] Worker (pid:4312) exited with code 1.
+[2024-03-14 22:33:41 +0000] [68661] [INFO] Booting worker with pid: 68661
